@@ -27,6 +27,8 @@ section1 <- function(geography_section1){
 
 section1_data <- section1(geography_section1)
 
+#### Household Composition Dataset function ####
+
 section2 <- function(hhComposition){
   hhcomp <- main %>%
     select(1, 38, 89:147)
