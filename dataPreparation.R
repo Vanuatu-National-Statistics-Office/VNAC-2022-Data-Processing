@@ -11,27 +11,41 @@ library(shinycssloaders) #Load shiny css library
 
 repository <- file.path(dirname(rstudioapi::getSourceEditorContext()$path))
 setwd(repository)
-# source("function.R")
-# source("global.R")
 
 tags$head(tags$script(src = "message-handler.js"))
 
 mydb <- dbConnect(RSQLite::SQLite(), "vnac2022.sqlite")
 
-#conn <- dbConnect(RSQLite::SQLite(), "c:/DataViz/VNAC2022/Dataprocessing/vnac_dataset.SQLite")
 
-main <- dbGetQuery(mydb, "SELECT * FROM main")
+#### Geographical Location Dataset function ####
+section1 <- function(geography_section1){
+  main <<- dbGetQuery(mydb, "SELECT * FROM main")
+  geography_section1 <- main %>%
+    select(1:37)
+  
+}
+
+section1_data <- section1(geography_section1)
+
+section2 <- function(hhComposition){
+  hhcomp <- main %>%
+    select(1, 38, 89:147)
+  hhRoster <- dbGetQuery(mydb, "SELECT * FROM hhComposition")
+  hhComposition <- merge(hhcomp, hhRoster, by = "id")
+  
+}
+
+section2_data <- section2(hhComposition)
 
 
-geography_section1 <- main %>%
-  select(1:37)
 
-hhcomp <- main %>%
-  select(1, 38, 89:147)
 
-hhRoster <- dbGetQuery(mydb, "SELECT * FROM hhComposition")
 
-person_section2 <- merge(hhcomp, hhRoster, by = "id")
+
+
+
+
+
 
 land_operated_section3 <- dbGetQuery(mydb, "SELECT * FROM landoperated")
 
