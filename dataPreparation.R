@@ -8,6 +8,7 @@ library(shiny) # Load shiny library
 library(DT) #Load Datatable library
 library(chron) # Load shron library for date manipulation
 library(shinycssloaders) #Load shiny css library
+library(janitor) # Adding dataframe total
 
 repository <- file.path(dirname(rstudioapi::getSourceEditorContext()$path))
 setwd(repository)
@@ -18,10 +19,147 @@ mydb <- dbConnect(RSQLite::SQLite(), "vnac2022.sqlite")
 
 
 #### Geographical Location Dataset function ####
-section1 <- function(geography_section1){
-  main <<- dbGetQuery(mydb, "SELECT * FROM main")
-  geography_section1 <- main %>%
-    select(1:37)
+
+hhpop <- dbGetQuery(mydb, "SELECT DISTINCT(id) AS id, COUNT(id) AS population FROM hhcomposition GROUP BY id")
+
+dbWriteTable(mydb, "hhpop", hhpop, overwrite = TRUE)
+
+section1_household <- function(household){
+  geography_section1 <- dbGetQuery(mydb, "SELECT main.id,
+                                   main.interview__id,
+                                   main.province,
+                                   province.provname,
+                                   main.island,
+                                   island.islandname,
+                                   main.area_council,
+                                   ac.acname,
+                                   main.ea_number,
+                                   main.village,
+                                   village.villagename,
+                                   main.new_village,
+                                   main.can_enumerate,
+                                   hhpop.population,
+                                   main.Q0111__1 AS workingOnCrops,
+                                   main.Q0111__2 AS workingOnLivestock,
+                                   main.Q0111__3 AS workingOnForestry,
+                                   main.Q0111__4 AS Fishing,
+                                   main.Q0111__5 AS Aquaculture,
+                                   main.Q0111__6 AS NoAgricultureActivities,
+                                   main.total_member_hh,
+                                   main.interview_date,
+                                   main.Q0107 AS mainIncomeSource,
+                                   incomesource.cashincome AS mainIncomeSourceDescription,
+                                   main.other_cash_income AS Other_Income_Specify,
+                                   main.Q0301 AS number_operated_parcels,
+                                   main.prim_phone_num,
+                                   main.another_phn_avail,
+                                   main.sec_phonenum,
+                                   main.sticker,
+                                   main.g3a_sticker_prefix,
+                                   main.g3b_sticker_number,
+                                   main.g4_dwelling_gps__Latitude,
+                                   main.g4_dwelling_gps__Longitude,
+                                   main.interview_end_time
+                            FROM main
+                            INNER JOIN province ON main.province = province.provid
+                            INNER JOIN island ON main.island = island.islandid
+                            INNER JOIN ac ON main.area_council = ac.acid
+                            INNER JOIN village ON main.village = village.villageid
+                            INNER JOIN incomesource ON main.Q0107 = incomesource.recid
+                            INNER JOIN hhpop ON main.id = hhpop.id
+                            
+                            WHERE main.province > 1
+                     ")
+  
+  geography_section1$workingOnCrops = as.factor(geography_section1$workingOnCrops)
+  geography_section1$workingOnLivestock = as.factor(geography_section1$workingOnLivestock)
+  geography_section1$workingOnForestry = as.factor(geography_section1$workingOnForestry)
+  geography_section1$Fishing = as.factor(geography_section1$Fishing)
+  geography_section1$Aquaculture = as.factor(geography_section1$Aquaculture)
+  geography_section1$NoAgricultureActivities = as.factor(geography_section1$NoAgricultureActivities)
+  
+
+high_value_crops <- dbGetQuery(mydb, "SELECT id,
+                                         SUM(CASE WHEN noPlantsKava < 0 THEN 0 ELSE noPlantsKava END) as 'kavaPlants_number',
+                                         SUM(CASE WHEN noPlantsCoconut < 0 THEN 0 ELSE noPlantsCoconut END) as 'coconutPlants_number',
+                                         SUM(CASE WHEN noPlantsCocoa < 0 THEN 0 ELSE noPlantsCocoa END) as 'cocoaPlants_number',
+                                         SUM(CASE WHEN noPlantsCoffee <0 THEN 0 ELSE noPlantsCoffee END) as 'coffeePlants_number',
+                                         SUM(CASE WHEN noPlantsVanilla <0 THEN 0 ELSE noPlantsVanilla END) as 'vanillaPlants_number',
+                                         SUM(CASE WHEN noPlantsTahitian <0 THEN 0 ELSE noPlantsTahitian END) as 'tahitianLimePlants_number',
+                                         SUM(CASE WHEN noPlantsPepper <0 THEN 0 ELSE noPlantsPepper END) as 'pepperPlants_number',
+                                         SUM(CASE WHEN noPlantsNoni <0 THEN 0 ELSE noPlantsNoni END) as 'noniPlants_number'
+                                  FROM landoperated
+                                  GROUP BY id
+                           ")
+
+household_hvCrops <- geography_section1 %>% left_join(high_value_crops)
+
+
+
+cattle_number <- dbGetQuery(mydb, "SELECT id,
+                                          SUM(Q050304A) AS totalCattles
+                                   FROM cattleComposition
+                                   WHERE Q050304A > -1
+                                   GROUP BY id
+                                          
+                            ")
+
+household_cattle <- household_hvCrops %>% left_join(cattle_number)
+
+
+sheep_number <- dbGetQuery(mydb, "SELECT id,
+                                          SUM(Q050403A) AS totalSheeps
+                                   FROM sheepComposition
+                                   WHERE Q050403A > -1
+                                   GROUP BY id
+                                          
+                            ")
+
+household_sheep <- household_cattle %>% left_join(sheep_number)
+
+
+
+goat_Number <- dbGetQuery(mydb, "SELECT id,
+                                          SUM(Q050503A) AS totalGoats
+                                   FROM goatComposition
+                                   WHERE Q050503A > -1
+                                   GROUP BY id
+                                          
+                            ")
+
+household_goat <- household_sheep %>% left_join(goat_Number)
+
+
+pig_Number <- dbGetQuery(mydb, "SELECT id,
+                                          SUM(Q050603A) AS totalPigs
+                                   FROM pigComposition
+                                   WHERE Q050603A >-1
+                                   GROUP BY id
+                                          
+                            ")
+
+household_pig <- household_goat %>% left_join(pig_Number)
+
+
+chicken_Number <- dbGetQuery(mydb, "SELECT id,
+                                           SUM(Q050702A) AS totalChicken
+                                    FROM poultryComposition
+                                    WHERE Q050702A >-1
+                                    GROUP BY id
+                             ")
+
+
+householdProduction <- household_pig %>% left_join(chicken_Number)
+
+
+dbWriteTable(mydb, "householdProduction", householdProduction, overwrite = TRUE)
+
+
+
+
+
+
+
   
 }
 
@@ -31,13 +169,238 @@ section1_data <- section1(geography_section1)
 
 section2 <- function(hhComposition){
   hhcomp <- main %>%
-    select(1, 38, 89:147)
+   select(1, 38, 89:147)
   hhRoster <- dbGetQuery(mydb, "SELECT * FROM hhComposition")
   hhComposition <- merge(hhcomp, hhRoster, by = "id")
   
 }
 
 section2_data <- section2(hhComposition)
+
+
+
+#### Livestock Section function ####
+
+# section5 Cattle
+
+section5_cattle <- function(householdCattle){
+  lvstock <- dbGetQuery(mydb, "SELECT main.id,
+                                      main.province,
+                                      province.provname,
+                                      main.island,
+                                      island.islandname,
+                                      main.area_council,
+                                      ac.acname,
+                                      main.ea_number,
+                                      main.village,
+                                      village.villagename,
+                                      main.new_village,
+                                      main.can_enumerate,
+                                   main.Q0111__2 AS workingOnLivestock,
+                                   main.Q0501__1 AS DairyCattle,
+                                   main.Q0501__2 AS BeefCattle,
+                                   main.Q0501__3 AS Sheep,
+                                   main.Q0501__4 AS Goat,
+                                   main.Q0501__5 AS Pigs,
+                                   main.Q0501__6 AS PoultryDucks,
+                                   main.Q0501__7 AS Apiculture,
+                                   main.Q0501__8 AS Horse,
+                                   main.Q0501__9 AS OtherLIvestock,
+                                   main.raisingDairy,
+                                   main.no_dairy AS NumberOfDairyCattle,
+                                   main.Q050301 AS HowCattlesAreKept,
+                                   livestockkeptMethod.livestockkeptmethod,
+                                   main.Q050303__1 AS Hereford,
+                                   main.Q050303__2 AS SantaGertrudis,
+                                   main.Q050303__3 AS Limousin,
+                                   main.Q050303__4 AS Brahman_Zebu,
+                                   main.Q050303__5 AS Charolais,
+                                   main.Q050303__6 AS DroughtMaster,
+                                   main.Q050303__7 AS Native,
+                                   main.Q050303__8 AS OtherCattleBreed,
+                                   main.Q050303a AS cattleIdentification,
+                                   cattleIdent.cattleIdent,
+                                   main.Q050305 AS mainPurposeforSlaughter,
+                                   cattleSlaughterPurpose.slaughterPurpose,
+                                   main.Q050307 AS mainPastureType,
+                                   CASE WHEN main.Q050307 = 1 THEN 'Native Grass' 
+                                        WHEN main.Q050307 = 2 THEN 'Improved Pasture (e.g Juncao)'
+                                   ELSE 'NA' END AS pastureTypeDesc,
+                                   main.Q050307A AS cattleSuplimentaryFeed,
+                                   CASE WHEN main.Q050307A = 1 THEN 'Yes'
+                                        WHEN main.Q050307A = 2 THEN 'NO'
+                                   ELSE 'NA' END AS whethersuplimentaryisUsed
+                              FROM main
+                                   INNER JOIN province ON main.province = province.provid
+                                   INNER JOIN island ON main.island = island.islandid
+                                   INNER JOIN ac ON main.area_council = ac.acid
+                                   INNER JOIN village ON main.village = village.villageid
+                                   LEFT JOIN cattleIdent ON main.Q050303a = cattleIdent.recid
+                                   LEFT JOIN cattleSlaughterPurpose ON main.Q050305 = cattleSlaughterPurpose.recid
+                                   LEFT JOIN livestockkeptMethod ON main.Q050301 = livestockkeptMethod.recid
+                        
+                        ")
+  
+  lvstock$workingOnLivestock = as.factor(lvstock$workingOnLivestock)
+  
+  
+  
+  cattlecompo <- dbGetQuery(mydb, "SELECT cattleComposition.id,
+                                          cattleComposition.R050304__id AS cattleClassid,
+                                          cattleClass.cattleClasss,
+                                          cattleComposition.Q050304A AS totalNumber,
+                                          cattleComposition.Q050304B AS cattlesoldtoAbattoir_Slaughterhouse,
+                                          cattleComposition.Q050304C AS cattlesoldAlive,
+                                          cattleComposition.Q050304D AS cattleLost,
+                                          cattleComposition.Q050304E AS cattleGivenAway,
+                                          cattleComposition.Q050304F AS cattleSlaughtered
+                                   FROM cattleComposition
+                                   LEFT JOIN cattleClass ON cattleComposition.R050304__id = cattleClass.recid
+
+                            ")
+  
+  householdCattle <- lvstock %>% left_join(cattlecompo)
+}
+
+
+# section 5 Sheeps
+
+section_sheep <- function(householdSheep){
+  sheepStock <- dbGetQuery(mydb, "SELECT main.id,
+                                      main.province,
+                                      province.provname,
+                                      main.island,
+                                      island.islandname,
+                                      main.area_council,
+                                      ac.acname,
+                                      main.ea_number,
+                                      main.village,
+                                      village.villagename,
+                                      main.new_village,
+                                      main.can_enumerate,
+                                      main.Q0501__3 AS Sheep,
+                                      main.Q050401 AS sheepKeptMethod,
+                                      main.Q050401A AS pastureSharedorNot,
+                                      CASE WHEN main.Q050401A = 1 THEN 'Exclusively for own sheep only'
+                                           WHEN main.Q050401A = 2 THEN 'Shared with other farmers in the village'
+                                      ELSE 'NA' END pastureSharedorNotDesc,
+                                      main.Q050403aa AS sheepIdentification,
+                                      cattleIdent.cattleIdent AS sheepIdentificationDesc,
+                                      main.Q050404 AS sheepslaughterpurpose,
+                                      cattleSlaughterPurpose.slaughterPurpose sheepSlaughterPurposeDesc,
+                                      main.Q050406 AS pastureType,
+                                      CASE WHEN main.Q050406 = 1 THEN 'Native Pasture'
+                                           WHEN main.Q050406 = 2 THEN 'Improved Pasture'
+                                      ELSE 'NA' END AS pastureTypeDesc,
+                                      main.Q050306A AS SuplimentaryFeedUsed
+                                      
+                                      
+                                FROM main
+                                INNER JOIN province ON main.province = province.provid
+                                INNER JOIN island ON main.island = island.islandid
+                                INNER JOIN ac ON main.area_council = ac.acid
+                                INNER JOIN village ON main.village = village.villageid
+                                LEFT JOIN cattleSlaughterPurpose ON main.Q050404 = cattleSlaughterPurpose.recid
+                                LEFT JOIN cattleIdent ON main.Q050403aa = cattleIdent.recid
+                                
+                                
+                                ")
+  
+  sheepStock$Sheep = as.factor(sheepStock$Sheep)
+  
+  
+  sheepcomp <- dbGetQuery(mydb, "SELECT sheepComposition.id,
+                                          sheepComposition.R050403__id AS sheepNumber,
+                                          sheepClass.sheepclassdesc,
+                                          sheepComposition.Q050403A AS totalNumber,
+                                          sheepComposition.Q050403B AS sheepsoldtoAbattoir_Slaughterhouse,
+                                          sheepComposition.Q050403C AS sheepsoldAlive,
+                                          sheepComposition.Q050403D AS sheepLost,
+                                          sheepComposition.Q050403E AS sheepGivenAway,
+                                          sheepComposition.Q050403F AS sheepslaughtered
+                                   FROM sheepComposition
+                                   LEFT JOIN sheepClass ON sheepComposition.R050403__id = sheepClass.recid
+                                   
+                                   ")
+  
+  householdSheep <- sheepStock %>% left_join(sheepcomp)
+  
+  
+}
+
+
+
+# **************************************** End of Section5 Data **********************************************************
+
+#### Section 6 Forestry ####
+
+# **************************************** Beginning of Section 6 Data ***************************************************
+
+forestry_section6 <- dbGetQuery(mydb, "SELECT main.id,
+                                                 main.interview__id,
+                                                 main.province,
+                                                 province.provname,
+                                                 main.island,
+                                                 island.islandname,
+                                                 main.area_council,
+                                                 ac.acname,
+                                                 main.ea_number,
+                                                 main.village,
+                                                 village.villagename,
+                                                 main.new_village,
+                                                 main.can_enumerate,
+                                                 CASE WHEN main.typeForestry__1 = 1 THEN 1 ELSE 0 END AS NaturalForest,
+                                                 CASE WHEN main.typeForestry__2 = 1 THEN 1 ELSE 0 END AS PlantedForest,
+                                                 main.Q0601 AS mainUseNaturalForest,
+                                                 mainUseNaturalForest.forestusedescription
+
+                                    FROM main
+                                    INNER JOIN province ON main.province = province.provid
+                                    INNER JOIN island ON main.island = island.islandid
+                                    INNER JOIN ac ON main.area_council = ac.acid
+                                    INNER JOIN village ON main.village = village.villageid
+                                    LEFT JOIN mainUseNaturalForest ON main.Q0601 = mainUseNaturalForest.forestusedid 
+                                
+                                ")
+                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+householdProduction <- dbGetQuery(mydb, "SELECT provname,
+                                         SUM(CASE WHEN kavaPlants_number <0 THEN 0 ELSE kavaPlants_number END) AS totalkava,
+                                         SUM(CASE WHEN coconutPlants_number <0 THEN 0 ELSE coconutPlants_number END) AS totalcoconut,
+                                         SUM(CASE WHEN cocoaPlants_number <0 THEN 0 ELSE cocoaPlants_number END) AS totalcocoa,
+                                         SUM(CASE WHEN coffeePlants_number <0 THEN 0 ELSE coffeePlants_number END ) AS totalcoffee,
+                                         SUM(CASE WHEN vanillaPlants_number <0 THEN 0 ELSE vanillaPlants_number END) AS totalvanilla,
+                                         SUM(CASE WHEN tahitianLimePlants_number <0 THEN  0 ELSE tahitianLimePlants_number END ) AS totaltahitianLime,
+                                         SUM(CASE WHEN pepperPlants_number <0 THEN 0 ELSE pepperPlants_number END) AS totalpepper,
+                                         SUM(CASE WHEN noniPlants_number <0 THEN 0 ELSE noniPlants_number END) AS totalnoni,
+                                         SUM(CASE WHEN totalCattles <0 THEN 0 ELSE totalCattles END) AS totalCattles,
+                                         SUM(CASE WHEN totalSheeps <0 THEN 0 ELSE totalSheeps END) AS totalsheeps,
+                                         SUM(CASE WHEN totalPigs <0 THEN 0 ELSE totalPigs END) AS totalpigs,
+                                         SUM(CASE WHEN totalGoats <0 THEN 0 ELSE totalGoats END) AS totalgoats,
+                                         SUM(CASE WHEN totalChicken <0 THEN 0 ELSE totalChicken END) AS totalchicken
+                                FROM householdProduction
+                                GROUP BY provname
+                           
+                           ")
+
+householdProduction <- householdProduction %>%
+  adorn_totals("row")
 
 
 

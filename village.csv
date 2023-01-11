@@ -1,0 +1,2729 @@
+villageid,villagename,acid
+101001,Dineumevuneu,101
+101002,Kwururetokwa,101
+101003,Lateu,101
+101004,Likwal,101
+101005,Linua,101
+101006,Lungharigi,101
+101007,Ribal,101
+101008,Rinuha,101
+101009,Telaklak,101
+101010,Yeugavigamena,101
+101011,Yoawoyea,101
+101012,Yokwana,101
+999901,Other Village,101
+102001,Lehali,102
+102002,Lekwiyangle,102
+102003,Lesereplag,102
+999902,Other Village,102
+103001,Avar,103
+103002,Demsas 1,103
+103003,Demsas 2,103
+103004,Nerenigman,103
+103005,Qeremade,103
+103006,Rah,103
+103007,Telvet,103
+103008,Totoglag,103
+103009,Valuwa,103
+999903,Other Village,103
+104001,Ambek,104
+104002,Arep,104
+104003,Diocese,104
+104004,Keyembak,104
+104005,Kwakea,104
+104006,Lalnete,104
+104007,Lalngetakwewe,104
+104008,Mberiot,104
+104009,Merelaen,104
+104010,Mosina,104
+104011,Ngere Gasal,104
+104012,Port Patterson,104
+104013,Qatvaes,104
+104014,Quanlap,104
+104015,Sisiol,104
+104016,Sola,104
+104017,Tanlap,104
+104018,Tatuve,104
+104019,Vatop,104
+104020,Vetrow,104
+999904,Other Village,104
+105001,Gamalna,105
+105002,Garamal,105
+105003,Liwotkei,105
+105004,Lotawan,105
+105005,Lotawora,105
+105006,Mariu,105
+105007,Sukeia,105
+105008,Tanarosa,105
+105009,Tasmate(Mota),105
+105010,Tukwetap,105
+105011,Veverao,105
+999905,Other Village,105
+106001,Angwet,106
+106002,Aver,106
+106003,Aworor,106
+106004,Baravet (Gaua),106
+106005,Kereliu,106
+106006,Ledowar,106
+106007,Legawenda,106
+106008,Lemanman,106
+106009,Lembot 1,106
+106010,Lemoga,106
+106011,Levog,106
+106012,Lewuslat,106
+106013,Metsalowon,106
+106014,Munhoro,106
+106015,Namasarai,106
+106016,Naveto,106
+106017,Nemeng,106
+106033,Nemiang,106
+106034,Nowo,106
+106040,Sirity,106
+106041,Tala,106
+106042,Talvavus,106
+106043,Tarasag,106
+106044,Tolo,106
+106046,Wonlav,106
+999906,Other Village,106
+107001,Aota,107
+107002,Lekwel,107
+107003,Lerat,107
+107004,Levetmisse,107
+107005,Levolvol,107
+107006,Lewotniok,107
+107007,Tasmat,107
+999907,Other Village,107
+108001,Bokrat,108
+108002,Kerembita,108
+108003,Le'Ev,108
+108004,Leon,108
+108005,Litow,108
+108006,Timaru,108
+108007,Tino,108
+108008,Vatrata,108
+108009,Vetuboso,108
+108010,Wosaga,108
+999908,Other Village,108
+109001,Atkor,109
+109002,Baol,109
+109003,Biam,109
+109004,Dolav,109
+109005,Dorig,109
+109006,Koro,109
+109007,Kweteon,109
+109008,Kwetevut,109
+109009,Lebaen,109
+109010,Lebal,109
+109011,Lembot 2,109
+109012,Lesus,109
+109013,Levow,109
+109014,Maketun,109
+109015,Mbwetbalak,109
+109016,Onel,109
+109017,Ontar,109
+109018,Qetedn,109
+109019,Qetegaveg,109
+109020,Sanwas,109
+109021,Vatlis,109
+999909,Other Village,109
+201001,Hokua,201
+201002,Lajmoli,201
+201003,Latchmoli,201
+201004,Lolonkarbush,201
+201005,Maroa,201
+201006,Matalip,201
+201007,Molpoi,201
+201008,Nokuku,201
+201009,Olpoi,201
+201010,Pelia Vunon,201
+201011,Penaoru,201
+201012,Peniel,201
+201013,Petani,201
+201014,Petawata,201
+201015,Poarou,201
+201016,Pwot,201
+201017,Raflepa,201
+201018,Sulesai,201
+201019,Turmele,201
+201020,Valpei,201
+201021,Wunap,201
+201022,Wunon,201
+201023,Wunpuku,201
+999910,Other Village,201
+202001,Bethel(Santo),202
+202002,Jereviu,202
+202003,Jinopoe,202
+202004,Laum,202
+202005,Malao,202
+202006,Malavuko,202
+202007,Maloeta,202
+202008,Matantas,202
+202009,Narada,202
+202010,Onwertev,202
+202011,Orota,202
+202012,Pailovu,202
+202013,Pakagivi,202
+202014,Peamaeto,202
+202015,Peamatsina,202
+202016,Peavot,202
+202017,Pelvus,202
+202018,Pesena,202
+202019,Pialore,202
+202020,Pialulup,202
+202021,Pionas,202
+202022,Pirao,202
+202023,Poejiejie,202
+202024,Pritike,202
+202025,Puelvus,202
+202026,Sapen,202
+202027,Sounato,202
+202028,Talatas,202
+202029,Tarivralapa,202
+202030,Tavunamalo,202
+202031,Tavunapui,202
+202032,Terru,202
+202033,Tolomako,202
+202034,Tuturu,202
+202035,Vaerani,202
+202036,Vasi,202
+202037,Vilausu,202
+202038,Vorovoke,202
+202039,Vunap,202
+202040,Vunarei,202
+202041,Vunaus,202
+202042,Vuravuraepohi,202
+202043,Vusiroro,202
+202044,Winsao,202
+202045,Worasule,202
+202046,Wosayolo,202
+202047,Wunapak,202
+999911,Other Village,202
+203001,Elia,203
+203002,Jaranavusvus,203
+203003,Kerenakoe,203
+203004,Kerepua,203
+203005,Kerevinompu,203
+203006,Kororo,203
+203007,Kulvalo,203
+203008,Lanombu,203
+203009,Lanop,203
+203010,Lathkar,203
+203011,Linduri,203
+203012,Narumaj,203
+203013,Pakaoro,203
+203014,Pareo,203
+203015,Patui,203
+203016,Ponoro,203
+203017,Puilovu,203
+203018,Punoro,203
+203019,Rohoua,203
+203020,Sulemaury,203
+203021,Tancovu,203
+203022,Tanokoru,203
+203023,Tasmate (Santo),203
+203024,Tombet,203
+203025,Toramauri,203
+203026,Tovotovo,203
+203027,Tunmaipisu,203
+203028,Valapei,203
+203029,Vasalea,203
+203030,Vesalea,203
+203031,Visio,203
+203032,Vunalevu,203
+203033,Vusvongo,203
+203034,Wunaere,203
+203035,Wunajimero,203
+203036,Wunaorota,203
+203037,Wunavae,203
+203038,Wunmeleus,203
+203055,Alnunur,203
+999912,Other Village,203
+204001,Arvalise,204
+204002,Avuiapu,204
+204003,Bakataura,204
+204004,Dun-Hill,204
+204005,Fibuevono,204
+204006,Forjenale,204
+204007,Hukoro,204
+204008,Ipayato,204
+204009,Janapak,204
+204010,Jarakoru,204
+204011,Jaramaja,204
+204012,Jaranikey,204
+204013,Jarati,204
+204014,Jaraty,204
+204015,Jaravalivu,204
+204016,Kerei,204
+204017,Kereiparana,204
+204018,Keren Tavui,204
+204019,Kerenbae,204
+204020,Kervalise,204
+204021,Kisule,204
+204022,Lotonae,204
+204023,Lotunai,204
+204024,Lovuvenu,204
+204025,Maliukalot,204
+204026,Maliuviaji,204
+204027,Malotau,204
+204028,Malovira,204
+204029,Mataipevu,204
+204030,Meletau,204
+204031,Morkiriv,204
+204032,Morly,204
+204033,Moru Kari,204
+204034,Najara,204
+204035,Nalailani,204
+204036,Namoru,204
+204037,Nanomb,204
+204038,Nasulesule,204
+204039,Natchara,204
+204040,Natui,204
+204041,Nduria,204
+204042,Okoro,204
+204043,Ororoi,204
+204044,Pakaovovo,204
+204045,Pakataora,204
+204046,Patinut,204
+204047,Patunbanga,204
+204048,Pelmoli,204
+204049,Puama,204
+204050,Saion,204
+204051,Solerao,204
+204052,Suleparav,204
+204053,Sulepe,204
+204054,Sungalato,204
+204055,Supemalao,204
+204056,Tabuvoea,204
+204057,Talvos,204
+204058,Tanorousa,204
+204059,Tanovusivusi,204
+204060,Taopevaro Pakalio (Nakrimel,204
+204061,Tasiriki (Santo),204
+204062,Tasmalum,204
+204063,Tataikala,204
+204064,Tavuine,204
+204065,Tcharavalivu,204
+204066,Tsaraitavin,204
+204067,Urav,204
+204068,Utalapa,204
+204069,Vavavia,204
+204070,Viavia,204
+204071,Viavoj,204
+204072,Vilijo,204
+204073,Vimala,204
+204074,Violas,204
+204075,Viorloko,204
+204076,Viuru,204
+204077,Vologigia,204
+204078,Vulamkara,204
+204079,Vunabisu,204
+204080,Vunamarivu,204
+204081,Vupuelolo,204
+204082,Vurginale,204
+204083,Vusinborote,204
+204084,Wusi,204
+999913,Other Village,204
+205001,Aala,205
+205002,Bene,205
+205003,Burie,205
+205004,Bye,205
+205005,Carvel,205
+205006,Hala,205
+205007,Hog Harbour,205
+205008,Kole 1,205
+205009,Kole 2,205
+205010,Lathi,205
+205011,Lavatnalau,205
+205012,Leithesi,205
+205013,Lelek,205
+205014,Lethesi,205
+205015,Letoror,205
+205016,Levuhar,205
+205017,Litikavar,205
+205018,Loheut,205
+205019,Lokalee,205
+205020,Lomanioc,205
+205021,Lonoc,205
+205022,Loran,205
+205023,Lorethia,205
+205024,Lorethikarkar,205
+205025,Lorevulko,205
+205026,Loro,205
+205027,Lorom,205
+205028,Losal,205
+205029,Losova,205
+205030,Lotoror,205
+205031,Loviakarkar,205
+205032,Lovotkar,205
+205033,Lowotwot,205
+205034,Luri,205
+205035,Luvteviriop,205
+205036,Luvtevulio,205
+205037,Peoke,205
+205038,Pillion,205
+205039,Pilot,205
+205040,Port Olry,205
+205041,Quantas,205
+205042,Rotal,205
+205043,Sara 1,205
+205044,Sara 2,205
+205045,Sara 3,205
+205046,Shark-Bay,205
+205047,Thalarev,205
+205048,Totokar,205
+205049,Yekar,205
+205050,Yorovkar,205
+999914,Other Village,205
+206001,Aese,206
+206002,Amseran,206
+206003,Arantoa,206
+206004,Bamboo,206
+206005,Banban,206
+206006,Banban Bush,206
+206007,Bompua,206
+206008,Bondum,206
+206009,Bune,206
+206010,Deproma,206
+206011,Gerr,206
+206012,Irho,206
+206013,Kona,206
+206014,Lopelope,206
+206015,Lopora,206
+206016,Matanvuso,206
+206017,Matevulu College,206
+206018,Mbutuwaman,206
+206019,Miilion Dollar Pt,206
+206020,Nabuluaru,206
+206021,Naedua,206
+206022,Nalapa,206
+206023,Natanara,206
+206024,Natara,206
+206025,Natawa,206
+206026,Palekula,206
+206027,Palon,206
+206028,Palone,206
+206029,Pondum,206
+206030,Santartara,206
+206031,Sarami,206
+206032,Saraotu,206
+206033,Saravi/Sarabo,206
+206034,St Peter,206
+206035,Stone Hill,206
+206036,Suranda,206
+206037,Teproma,206
+206038,Trebol,206
+206039,Turtle Bay,206
+206040,Valankara,206
+206041,Valavalet,206
+206042,Vartc Plantation,206
+206043,Vilvil,206
+206044,Vinobuma,206
+999915,Other Village,206
+207001,Anusa,207
+207002,Beleru,207
+207003,Bellemolle,207
+207004,Belnatsa,207
+207005,Bobby Plantation,207
+207006,Bokissa,207
+207007,Fanafo,207
+207008,Frank Joe,207
+207009,Funaspef,207
+207010,Gatteville,207
+207011,George Lini,207
+207012,Giraud,207
+207013,Ircc,207
+207014,Jimmy Steven Area,207
+207015,Jubilee Farm,207
+207016,Lahwe,207
+207017,Lambue,207
+207018,Lapita Plantation,207
+207019,Lepen,207
+207020,Mabenava,207
+207021,Makmakvoai,207
+207022,Mon Exil,207
+207023,Morunji,207
+207024,Nambauk,207
+207025,Nambel,207
+207026,Nambolankurusa,207
+207027,Natuntulai,207
+207028,Patumbuma,207
+207029,Perenfae,207
+207030,Peyrolles (Aore),207
+207031,Picarde,207
+207032,Plamkar,207
+207033,Plenvavak,207
+207034,Puel,207
+207035,Putunfrak,207
+207036,Ratua Island,207
+207037,Rungamburu,207
+207038,Saksak,207
+207039,Savot,207
+207040,Sda Mission,207
+207041,Sevoa,207
+207042,Simonson,207
+207043,Tabotalo,207
+207044,Tabumbatu,207
+207045,Talvotor,207
+207046,Tambotalo,207
+207047,Tamburiamalao,207
+207048,Toava,207
+207049,Vakol,207
+207050,Vunamalae,207
+207051,Vunasari,207
+207052,Wong Plantation,207
+207053,Wunato,207
+999916,Other Village,207
+208001,Agriculture Station,208
+208002,Barrick,208
+208003,Bp Bon,208
+208004,Canal,208
+208005,Chapuis 1,208
+208006,Chapuis 2,208
+208007,Firestation,208
+208008,Lavusvatu,208
+208009,Luganville Cbd,208
+208010,Mango Station,208
+208011,Pepsi Sarakata,208
+208012,Pump Station,208
+208013,Red Corner,208
+208014,Santo East,208
+208015,Sarakata,208
+208016,Shell,208
+208017,Show Ground,208
+208018,Side River,208
+208019,Solomons Hill,208
+208020,Solway,208
+208021,St Michel,208
+208022,Tankara,208
+999917,Other Village,208
+209001,Amahirua,209
+209002,Amamwbea,209
+209003,Amanusa,209
+209004,Ambilahe,209
+209005,Amborosi,209
+209006,Aravita,209
+209007,Ativusa,209
+209008,Avnabahura,209
+209009,Avorani,209
+209010,Avunabahura,209
+209011,Avunabakaliho,209
+209012,Avunabuho,209
+209013,Avunabulu,209
+209014,Avunaleleo,209
+209015,Avunambaka,209
+209016,Avunambakaliko,209
+209017,Avunambue,209
+209018,Avunamele,209
+209019,Avunarani,209
+209020,Avunaresi,209
+209021,Avunareworewo,209
+209022,Avunatangi,209
+209023,Avunatari,209
+209024,Avunavae,209
+209025,Barakel,209
+209026,Belinboji,209
+209027,Gingonikoru,209
+209028,Jingontana,209
+209029,Mbahurasumbe,209
+209030,Mbeao,209
+209031,Nafurafura,209
+209032,Nahorouta,209
+209033,Namwele,209
+209034,Nangasa,209
+209035,Nanuku,209
+209036,Narango 2 (Malo),209
+209037,Natanowaha,209
+209038,Navondavatu,209
+209039,Nawiambu,209
+209040,Randel,209
+209041,Sanapoe,209
+209042,Small Nanuhu,209
+209043,Tastabae,209
+209044,Tawi Field,209
+209045,Tsingonkoru,209
+209046,Vatuate,209
+209047,Vatuemba,209
+209048,Wambalao,209
+999918,Other Village,209
+210001,Abaone,210
+210002,Abnatavoa,210
+210003,Adolala,210
+210004,Alowaru,210
+210005,Amalo,210
+210006,Amapelao,210
+210007,Ambaghura,210
+210008,Ambahura,210
+210009,Ampatuwotu,210
+210010,Apersula,210
+210011,Aremanapoi,210
+210012,Aroae,210
+210013,Aroakani,210
+210014,Arohan,210
+210015,Asamaranda,210
+210016,Asanasa,210
+210017,Asanawari,210
+210018,Asatapu,210
+210019,Asavahasa,210
+210020,Atalisa,210
+210021,Ataripoi,210
+210022,Avunaniboe,210
+210023,Avunapokorae,210
+210024,Avunarao Clinic,210
+210025,Avunarara,210
+210026,Bethlehem (Malo),210
+210027,Betrihi,210
+210028,Bivanua,210
+210029,Bulumed,210
+210030,Genesis,210
+210031,Lambetra,210
+210032,Lulu,210
+210033,Malokilikili,210
+210034,Melbulbul,210
+210035,Nalivukaivanua,210
+210036,Nandiutu,210
+210037,Naviaru,210
+210038,Naviova,210
+210039,Nemero,210
+210040,Prospect,210
+210041,Savakasa,210
+210042,Tanmial (Malo),210
+210043,Vapepoi,210
+210044,Vunavinue,210
+999919,Other Village,210
+211001,Ankuru,211
+211002,Butmas,211
+211003,Faboun,211
+211004,Jinoitavara,211
+211005,Jinotavara,211
+211006,Kororo,211
+211007,Lape,211
+211008,Mango Vara Clinic,211
+211009,Mataloe,211
+211010,Naratalapa,211
+211011,Navele,211
+211012,Navnaurota,211
+211013,Navolala,211
+211014,Nawelala,211
+211015,Paparama,211
+211016,Tanakar,211
+211017,Tovot,211
+211018,Vavuro,211
+211019,Vuskom,211
+211020,Vustumtum,211
+211021,Vusvango,211
+211022,Vutioro,211
+211023,Vutkara,211
+211024,White Grass (Santo),211
+999920,Other Village,211
+212001,Bia,212
+212002,Eken,212
+212003,Hushar,212
+212004,Jino Aru Plantation,212
+212005,Mavunlif,212
+212006,Neavu,212
+212007,Peyrolles (Santo),212
+212008,Ratard,212
+212009,Tanavoli,212
+212010,Venue,212
+212011,Araki,212
+212012,Baril,212
+212013,Bariliaru,212
+212014,Belinta,212
+212015,Benmoli,212
+212016,Ebenezer,212
+212017,Fimele,212
+212018,Funafosi,212
+212019,Hasevaia,212
+212020,Jarailan,212
+212021,Jaraimatsa,212
+212022,Jaransarere,212
+212023,Karakara,212
+212024,Nakere,212
+212025,Namafun,212
+212026,Namalo,212
+212027,Naone (Santo),212
+212028,Naonetas,212
+212029,Narango (Santo),212
+212030,Narua,212
+212031,Navota Farm,212
+212032,Pagaruru,212
+212033,Parisa,212
+212034,Patu Vora,212
+212035,Penbinmoli,212
+212036,Sarete,212
+212037,Talua,212
+212038,Taluiere,212
+212039,Tangisi,212
+212040,Tangoa,212
+212041,Urelapa,212
+212042,Venabisu,212
+212043,Vipue,212
+212044,Vulesepe,212
+212045,Vunapisu,212
+212046,Vunavosi,212
+212047,Wailapa,212
+212048,Kerenvosoi,212
+212049,Namavun,212
+212050,Tabunson,212
+212051,Vatro,212
+999921,Other Village,212
+301001,Ahuku,301
+301002,Amata,301
+301003,Ambore,301
+301004,Apopo,301
+301005,Baegotolovatu,301
+301006,Butema,301
+301007,Hakwai,301
+301008,Halalulu,301
+301009,Halatamarino,301
+301010,Hukarere,301
+301011,Kwainavoha,301
+301012,Lavatutambura,301
+301013,Loaruburu,301
+301014,Lolobinanungwa,301
+301015,Lololase,301
+301016,Lolombanga,301
+301017,Lolongwalakesa,301
+301018,Lolopepa,301
+301019,Lolotinge,301
+301020,Loloveveo,301
+301021,Lomaeto,301
+301022,Lomaki,301
+301023,Lombanga,301
+301024,Lombonoi,301
+301025,Lombushi,301
+301026,Londua,301
+301027,Longwaru (West Ambae),301
+301028,Loone Kukwehu,301
+301029,Loone Lakua,301
+301030,Lo-Onekwekwehu,301
+301031,Lotalemba,301
+301032,Lovanualikoutu,301
+301033,Lovatumbiri,301
+301034,Lovutialau,301
+301035,Lovutikerekere,301
+301036,Masalato,301
+301037,Mataindan,301
+301038,Matamata,301
+301039,Matuibuleiduru,301
+301040,Nabekukwonge,301
+301041,Namarasama,301
+301042,Nambangahake,301
+301043,Namberukwonge,301
+301044,Namberungwele,301
+301045,Nanako,301
+301046,Nangweangwea,301
+301047,Natalu,301
+301048,Nataluhangele,301
+301049,Natuleo,301
+301050,Navitora,301
+301051,Navuti,301
+301052,Navuturiki,301
+301053,Nduindui,301
+301054,Ngwarangaihaha,301
+301055,Ngwaruihokota,301
+301056,Numwebaivora,301
+301057,Sara Lokambu,301
+301058,Saraeboevutu,301
+301059,Saraiboe (West Ambae),301
+301060,Saraililiu,301
+301061,Sarairahu,301
+301062,Saralongwandu,301
+301063,Saramahanga,301
+301064,Saranabuka,301
+301065,Saranagwelu,301
+301066,Saranambuka,301
+301067,Saranamundu,301
+301068,Saranangwae,301
+301069,Saratangaulu,301
+301070,Takaro (Lolovivuha),301
+301071,Tamarino,301
+301072,Tavala,301
+301073,Tavalangwala,301
+301074,Tavalavuti,301
+301075,Vatuanga (West Ambae),301
+301076,Vilakalaka,301
+301077,Vinambulu,301
+301078,Vinangwangwe,301
+301079,Waimasara,301
+301080,Walaha,301
+999922,Other Village,301
+302001,Ambanga,302
+302002,Bavulava,302
+302003,Halovu,302
+302004,Kandilivu,302
+302005,Lohueri,302
+302006,Loigememea,302
+302007,Loloaru,302
+302008,Lolobaego,302
+302009,Lolobaka,302
+302010,Lolobivune,302
+302011,Lolobue,302
+302012,Lolobulusi,302
+302013,Lolododou,302
+302014,Lololalangoa,302
+302015,Lololiso,302
+302016,Lolomanganda,302
+302017,Lolombei,302
+302018,Lolongwele,302
+302019,Lolongwire,302
+302020,Lolopuepue,302
+302021,Lolosigei,302
+302022,Lolosori,302
+302023,Lolotawaewae,302
+302024,Lolovange,302
+302025,Lolowala,302
+302026,Lolowalu,302
+302027,Lomabuiboe,302
+302028,Lomalanga,302
+302029,Lomalangai Tambe,302
+302030,Longwaruhimanaro,302
+302031,Longwaruhivirengwele,302
+302032,Longwaruisiwo,302
+302033,Longwatakiaka,302
+302034,Lonunu,302
+302035,Losaraiolo,302
+302036,Losarairisu,302
+302037,Losaraivire,302
+302038,Losaraivirelenga,302
+302039,Losaraivirewaga,302
+302040,Losaraivulu,302
+302041,Losingoiaro,302
+302042,Losingoiburie,302
+302043,Losingoingwange,302
+302044,Lotahimamavi,302
+302045,Lotandumindumi,302
+302046,Lotanoiwelu,302
+302047,Lovuibanga,302
+302048,Lovuibuge,302
+302049,Lovuihuli,302
+302050,Lovuikatambola,302
+302051,Lovuikevike,302
+302052,Lovuimango,302
+302053,Lovuimangwekere,302
+302054,Lovuimataboe,302
+302055,Lovuimbaga,302
+302056,Lovuimenagailolo,302
+302057,Lovuimeulu,302
+302058,Lovuinanara,302
+302059,Lovuiove,302
+302060,Lovuitogohui,302
+302061,Lovuitungu,302
+302062,Lovuivele,302
+302063,Lovuivetu,302
+302064,Lovuiwaivana,302
+302065,Lovuneituruboe,302
+302066,Lovusigave,302
+302067,Lovusimala,302
+302068,Lovusinava,302
+302069,Lowaimera,302
+302070,Lowainasasa,302
+302071,Lowairoro,302
+302072,Lowaluieru,302
+302073,Maloa,302
+302074,Mbaegowali,302
+302075,Mbangamera,302
+302076,Mbolorigi,302
+302077,Nabiribiri,302
+302078,Nagole,302
+302079,Nagotambu,302
+302080,Nahala,302
+302081,Naliliu,302
+302082,Namalavusi,302
+302083,Namangwearu,302
+302084,Nambuhi,302
+302085,Naruse,302
+302086,Nasalakoro,302
+302087,Natandu,302
+302088,Naviveriue,302
+302089,Navohovoho,302
+302090,Nawalu,302
+302091,Nawegu,302
+302092,Nduviara,302
+302093,Nehala,302
+302094,Ngwaranga,302
+302095,Ngwatangwele,302
+302096,Ngwatumanu,302
+302097,Ngwelelulu,302
+302098,Ngweora,302
+302099,Sara Ngwelelulu,302
+302100,Sarabakure,302
+302101,Sarabavulava,302
+302102,Saraibulo,302
+302103,Saraingulo,302
+302104,Saraingweto,302
+302105,Saraiolo,302
+302106,Sarairao,302
+302107,Saraivava,302
+302108,Saraiverekasi,302
+302109,Saraleawasu,302
+302110,Saraloone,302
+302111,Saramaewo,302
+302112,Saranange,302
+302113,Saranavihi,302
+302114,Sarangwangi,302
+302115,Talihe,302
+302116,Tanoingwaro,302
+302117,Tavalavusi,302
+302118,Tavolavola,302
+302119,Tavugi,302
+302120,Vandue,302
+302121,Vatumauri,302
+302122,Vuimangwetoli,302
+302123,Vuimberugu,302
+302124,Vuingalato,302
+302125,Vuitavoa,302
+302126,Wainasasa,302
+302127,Waluriki,302
+999923,Other Village,302
+303002,Arorono,303
+303003,Atavoa,303
+303004,Boiboi,303
+303005,Kamalbakeo,303
+303006,Logaitureitovu,303
+303007,Loguigui,303
+303008,Logwaruibui,303
+303009,Loloara,303
+303010,Loloduvu,303
+303011,Lolomatui,303
+303012,Lolomavuro,303
+303013,Lolonduvu,303
+303014,Lolosara,303
+303015,Lolotari,303
+303016,Lolowai,303
+303017,Longwaruibui,303
+303018,Longwirutaro,303
+303019,Lorurunga,303
+303020,Lovanue,303
+303021,Lovatmalava,303
+303022,Lovatumemea,303
+303023,Lovatuweliweli,303
+303024,Lovondakairue,303
+303025,Lovuidao,303
+303026,Lovuinove,303
+303027,Lovuinvilli,303
+303028,Lovunibukevui,303
+303029,Lovunikatambolo,303
+303030,Lovunimangwe,303
+303031,Lovunvili,303
+303032,Lovusi,303
+303033,Lovusitarivue,303
+303034,Mataravi,303
+303035,Nagwea,303
+303036,Namboe,303
+303037,Nanigama,303
+303038,Nanivele,303
+303039,Narongleo,303
+303040,Navakasara,303
+303041,Navonda,303
+303042,Saraigwiru,303
+303043,Saraisese,303
+303044,Saratamata,303
+303045,Torgil,303
+303046,Tumsisiro,303
+303047,Urembulu,303
+303048,Vatrukruk,303
+303049,Wailengi,303
+999924,Other Village,303
+304001,Biribiri,304
+304003,Kwaruitulo,304
+304004,Lobasa,304
+304005,Lolongo Baeko,304
+304006,Lolosiwoi,304
+304007,Lolovatali,304
+304008,Lolovele,304
+304009,Lolovelevusi,304
+304010,Lolovoli,304
+304011,Loone,304
+304012,Lovunibanga,304
+304013,Lovusi Kamalwei,304
+304014,Lovutirovo,304
+304015,Naravatu,304
+304016,Sakao,304
+304017,Sarabulu,304
+304018,Sarailengwasa,304
+304019,Saramoli,304
+304020,Sarantari,304
+304021,Solkave,304
+304022,Waibulu,304
+304023,Waidumi,304
+304024,Waisine,304
+999925,Other Village,304
+305001,Beterara,305
+305002,Ghantaroa,305
+305004,Kerembei,305
+305005,Kilotegwa,305
+305006,Kraiowo,305
+305007,Lalangnam,305
+305008,Lalaundie,305
+305009,Lalavara,305
+305010,Lalavaru,305
+305011,Lasmea,305
+305012,Lasolo,305
+305013,Marino,305
+305014,Matbeiringi,305
+305015,Nagoro,305
+305016,Nandunga,305
+305017,Naomumu,305
+305018,Naone (Maewo),305
+305019,Naseutora,305
+305020,Natogulata,305
+305021,Navenvene,305
+305022,Naviso,305
+305023,Navitora (Maewo),305
+305024,Ngota,305
+305025,Ngwataitora,305
+305026,Ngwatiakwoli,305
+305027,Ngwatvanua,305
+305028,Rembu,305
+305029,Rockhill,305
+305030,Rongonawo,305
+305031,Saranangwea,305
+305032,Saritangwata,305
+305033,Tangwalulu,305
+305034,Tanmaeto,305
+305035,Tavali Gatama,305
+305036,Teari,305
+305037,Toas,305
+305038,Umulongo,305
+305039,Vatkwari,305
+305040,Verue,305
+999926,Other Village,305
+306001,Abulanga,306
+306002,Abwatunvele,306
+306003,Alao,306
+306005,Anavutua,306
+306006,Anvanua Bulbula,306
+306007,Asanvari,306
+306008,Asataleva,306
+306009,Avanbatai,306
+306010,Avanbolulu,306
+306011,Avavanvae,306
+306012,Baitora,306
+306013,Bakra,306
+306014,Bosgole,306
+306015,Buabua,306
+306016,Bwakia,306
+306017,Bwebwea,306
+306018,Daldalisi,306
+306019,Labwatbua,306
+306020,Lambweambwea,306
+306021,Latan Dumdumi,306
+306022,Lavatu,306
+306023,Mandiri,306
+306024,Narovorovo,306
+306025,Nasara,306
+306026,Nasawa,306
+306027,Talise,306
+306028,Tam,306
+306029,Tanbiluk,306
+306030,Vatubwae,306
+306031,Waisoho,306
+999927,Other Village,306
+307001,Abuanga,307
+307002,Abwaluba,307
+307003,Abwalulua,307
+307004,Abwantuntora,307
+307006,Abwatunbuliva,307
+307007,Abwatunmamalau,307
+307008,Abwatuntari,307
+307009,Abwatuntora,307
+307010,Abwatunvutu,307
+307011,Abwatvenue,307
+307012,Adovonai,307
+307013,Agatoa,307
+307014,Alememea,307
+307015,Alologeha,307
+307016,Amagalalau,307
+307017,Amagao,307
+307018,Amagilua,307
+307019,Amalau,307
+307020,Amatbobo,307
+307021,Amelhubwe,307
+307022,Angerena,307
+307023,Angoro,307
+307024,Anmalabua,307
+307025,Arasa,307
+307026,Arevo,307
+307027,Arivrivbarai,307
+307028,Aroa,307
+307029,Arongbwaratu,307
+307030,Arongbwratu,307
+307031,Asalmangaru,307
+307032,Asaola,307
+307033,Asaratamata,307
+307034,Atabualasi,307
+307035,Atabuau,307
+307036,Atabulu,307
+307037,Atangurua,307
+307038,Atavtabanga,307
+307039,Avanguresi,307
+307040,Avantavoa,307
+307041,Avareligo,307
+307042,Avatuaru,307
+307043,Avatuna,307
+307044,Avatvotu,307
+307045,Aviriana,307
+307046,Avulavotu,307
+307047,Bwegu,307
+307048,Labaru,307
+307049,Labatbubu,307
+307050,Labnanga,307
+307051,Labultamata,307
+307052,Labwaen,307
+307053,Labwaru,307
+307054,Labwarunsivi,307
+307055,Labwatgarabihu,307
+307056,Labwatgongoro,307
+307057,Labwatgugu,307
+307058,Labwatmalihlihi,307
+307059,Lagaronboga,307
+307060,Lagatava,307
+307061,Lagaviga,307
+307062,Lahalbulbulu,307
+307063,Lamalanga,307
+307064,Lamoru,307
+307065,Lamuruntoa,307
+307066,Laone,307
+307067,Lasive,307
+307068,Latano,307
+307069,Laumu,307
+307070,Lavanutagaro,307
+307071,Lavatgaivelu,307
+307072,Lavingabin,307
+307073,Lavusi,307
+307074,Lawagantoa,307
+307075,Lawai,307
+307076,Lawelena,307
+307077,Levundo,307
+307078,Lolbili,307
+307079,Lolbiribirishul,307
+307080,Lolbuavatu,307
+307081,Lolbwahu,307
+307082,Loltoi,307
+307083,Loltong,307
+307084,Nagolum,307
+307085,Nagove,307
+307086,Nakapakapa,307
+307087,Nambwarangiut,307
+307088,Natapulu,307
+307089,Navenul,307
+307090,Renbura,307
+307091,Saransavagoro,307
+307092,Singmwel,307
+307093,Tavorai,307
+307094,Umalua,307
+307095,Wansa,307
+999928,Other Village,307
+308001,Bowul,308
+308002,Bwatnapni,308
+308003,Dilingbaba,308
+308004,Dirihi,308
+308005,Elislis,308
+308007,Enbanga Matmat,308
+308008,Enbangoa,308
+308009,Enkarwandam,308
+308010,Enkem,308
+308011,Enkok,308
+308012,Envelbwavi,308
+308013,Kutan,308
+308014,Lebetabok,308
+308015,Lebor,308
+308016,Lebundog,308
+308017,Ledunsivi,308
+308018,Lekal,308
+308019,Lekatraba,308
+308020,Lemamleke,308
+308021,Lematete,308
+308022,Lemelang,308
+308023,Lenga,308
+308024,Leni,308
+308025,Leravinanposvi,308
+308026,Lesarintemwat,308
+308027,Lesasa,308
+308028,Levelkaak,308
+308029,Levilhi,308
+308030,Lewakabet,308
+308031,Libetalalak,308
+308032,Libwipeta,308
+308033,Lihiwuk,308
+308034,Madong,308
+308035,Mbenka,308
+308036,Melerep,308
+308037,Metabwabara,308
+308038,Metenemie,308
+308039,Namaram,308
+308040,Naruwa,308
+308041,Nasa,308
+308042,Netis,308
+308043,Niwi,308
+308044,Nokonbongelan,308
+308045,Nokonkulkul,308
+308046,Nokonmemeh,308
+308047,Nokonraboga,308
+308048,Nokontangbwi,308
+308049,Nokontawen,308
+308050,Raton,308
+308051,Saenawar,308
+308052,Taberan,308
+308053,Tanbok,308
+308054,Tapikanga,308
+308055,Tasvarongo,308
+308056,Topikanga,308
+308057,Tosi,308
+308058,Unvene,308
+308059,Vanaar,308
+308060,Vanbugelan,308
+308061,Vankasi,308
+308062,Vankaviala,308
+308063,Vanmwelamwela,308
+308064,Vanrewerep,308
+308065,Vanvalkaro,308
+308066,Vasalal,308
+308067,Vasba,308
+308068,Vilel,308
+308069,Wanbukelan,308
+308070,Wanlegok,308
+308071,Wasak,308
+308072,Watabwek,308
+308073,Wolingan,308
+308074,Wotip,308
+308075,Wujunmwel,308
+999929,Other Village,308
+309001,Banmit,309
+309002,Bines,309
+309003,Bulhak,309
+309004,Bwaga,309
+309005,Ebwelip,309
+309006,Gun,309
+309008,Ilamre,309
+309009,Kowi,309
+309010,Kulbaga,309
+309011,Kumreut,309
+309012,Labakla,309
+309013,Lalmamring,309
+309014,Lalvetaes,309
+309015,Lalwok,309
+309016,Lalwuk,309
+309017,Lebathi,309
+309018,Lebetamit,309
+309019,Lebujidem,309
+309020,Lebujubujuvet,309
+309021,Lebwa,309
+309022,Lebwibwi,309
+309023,Leguru,309
+309024,Lekaro,309
+309025,Lekul,309
+309026,Lelda,309
+309027,Lelislis,309
+309028,Lemaba,309
+309029,Lemalda,309
+309030,Lemalmal,309
+309031,Lemaviko,309
+309032,Lemiligi,309
+309033,Lenbok,309
+309034,Lengali,309
+309035,Lense,309
+309036,Lenwaki,309
+309037,Lenwakmul,309
+309038,Leodova,309
+309039,Leranbutsuketap,309
+309040,Lerankaro,309
+309041,Lerasangul,309
+309042,Lerukruk,309
+309043,Lesasa Nadam,309
+309044,Lesasa Namal,309
+309045,Lesasanadam,309
+309046,Lesubelakan,309
+309047,Levatkainmel,309
+309048,Levetlis,309
+309049,Levetnanbul,309
+309050,Levini,309
+309051,Levuk,309
+309052,Lewabwarangmet,309
+309053,Lewawa,309
+309054,Libukuvini,309
+309055,Lijukunkasi,309
+309056,Likasak,309
+309057,Livetnanbal,309
+309058,Livitsitan,309
+309059,Lonfis,309
+309060,Madas,309
+309061,Mangarep,309
+309062,Maurep,309
+309063,Mbwil,309
+309064,Melsisi,309
+309065,Metaruk,309
+309066,Nokonbok,309
+309067,Nokonbwa,309
+309068,Nokondavi,309
+309069,Nokonkaop,309
+309070,Nokonvel,309
+309071,Nokonwanet,309
+309072,Nokonwawos,309
+309073,Nokoul,309
+309074,Nuwuk,309
+309075,Onlapa,309
+309076,Palimarbing,309
+309077,Ranliawar,309
+309078,Saavat,309
+309079,Salaba,309
+309080,Salevakal,309
+309081,Salwol,309
+309082,Saot,309
+309083,Sarinlang,309
+309084,Tankarang,309
+309085,Tansip,309
+309086,Taraibe,309
+309087,Tole,309
+309088,Tongwe,309
+309089,Tsinbwege,309
+309090,Urewerep,309
+309091,Vaiwos,309
+309092,Vanbak,309
+309093,Vanbanamel,309
+309094,Vanbwarus,309
+309095,Vanguru,309
+309096,Vanis,309
+309097,Vanmelang,309
+309098,Vanraba,309
+309099,Vanrasini,309
+309100,Vansasa,309
+309101,Vansede,309
+309102,Vansemwakul,309
+309103,Vanu,309
+309104,Vanuakam,309
+309105,Vanwaknasimo,309
+309106,Varabwa,309
+309107,Variwirip,309
+309108,Vawoor,309
+309109,Vetroworok,309
+309110,Wading,309
+309111,Wadomaba,309
+309112,Wadungmwaba,309
+309113,Waiwos,309
+309114,Wodung,309
+309115,Wumeram,309
+999930,Other Village,309
+310001,Baie Barrier,310
+310002,Banmatmat,310
+310003,Baravet (Pentecost),310
+310004,Bilaot,310
+310005,Bunlap,310
+310006,Bwilaut,310
+310007,Harop,310
+310009,Hot Wota,310
+310010,Lalbung,310
+310011,Lalwori,310
+310012,Lare,310
+310013,Larouk,310
+310014,Lasalako,310
+310015,Lebus,310
+310016,Levisendam,310
+310017,Liav,310
+310018,Liavsumbhese,310
+310019,Lolle,310
+310020,Lonapin,310
+310021,Lonbwe (Pentecost),310
+310022,Londar,310
+310023,Lonese,310
+310024,Longbwe,310
+310025,Longelesul,310
+310026,Longwe,310
+310027,Lonisis,310
+310028,Lonlia,310
+310029,Lonlibwe,310
+310030,Lonorore,310
+310031,Lonov,310
+310032,Lonwabet,310
+310033,Lowao,310
+310034,Moruvak,310
+310035,Nevor,310
+310036,Olmoh,310
+310037,Panap,310
+310038,Panas,310
+310039,Panbanglap,310
+310040,Pangi,310
+310041,Panlimse,310
+310042,Pannas,310
+310043,Pantor,310
+310044,Point Cross,310
+310045,Ponov,310
+310046,Ponra,310
+310047,Powruru,310
+310048,Rabsunmel,310
+310049,Ramwawat,310
+310050,Rangusuksuk,310
+310051,Ranliae,310
+310052,Ranliaie,310
+310053,Ranmarah,310
+310054,Ranmawat,310
+310055,Ranputor,310
+310056,Ranru,310
+310057,Ranwadi,310
+310058,Ranwas,310
+310059,Ravang,310
+310060,Rowok,310
+310061,Sanmara,310
+310062,Sawalaba,310
+310063,St Joseph (Pentecost),310
+310064,Tanmele,310
+310065,Vanaia,310
+310066,Vanvat,310
+310067,Vanwoki,310
+310068,Varsare,310
+310069,Vatsare,310
+310070,Vetlul,310
+310071,Waet Wota,310
+310072,Wali,310
+310073,Wanur,310
+999931,Other Village,310
+401001,Albatei,401
+401002,Alemtu,401
+401003,Alkakau,401
+401004,Alnawirir,401
+401005,Alnivert,401
+401006,Anuatakh,401
+401007,Bonenaveth,401
+401008,Botolvo,401
+401010,Brenwei,401
+401011,Bur,401
+401012,Clear River,401
+401013,Elnisi,401
+401014,Espiegle Bay,401
+401015,Lawesinwe,401
+401016,Lekan,401
+401017,Leken,401
+401018,Lerongrong,401
+401019,Lesarnalas,401
+401020,Letephuei,401
+401021,Leviam 1,401
+401022,Leviam 2,401
+401023,Livet,401
+401024,Malua Bay,401
+401025,Matanvath,401
+401026,Mbenenavet,401
+401027,Metkhun,401
+401028,Molin,401
+401029,Nambar,401
+401030,Navtar,401
+401031,Nawimalet,401
+401032,Olam,401
+401033,Oroni,401
+401034,Pao,401
+401035,Pepeksat,401
+401036,Petengar,401
+401037,Petmaur,401
+401038,Pikaer,401
+401039,Pinawae,401
+401040,Pur,401
+401041,Rambek,401
+401042,Sebughas,401
+401043,Tanmalilip,401
+401044,Tanmial (Malekula),401
+401045,Tenmaru,401
+401046,Tniu,401
+401047,Tontar,401
+401048,Tontarasak,401
+401049,Travol,401
+401050,Tulwei,401
+401051,Unmakh,401
+401052,Unmet,401
+401053,Unvar,401
+401054,Uptapep,401
+401055,Uri,401
+401056,Wiaru,401
+401057,Wiawi,401
+401058,Wiel,401
+401059,Wiliekh,401
+401060,Wimandu,401
+401061,Win,401
+401062,Womul,401
+401063,Wornambek,401
+401064,Wowo,401
+999932,Other Village,401
+402001,Alavas,402
+402002,Amelvet,402
+402003,Anap,402
+402004,Betehul,402
+402005,Beterihi,402
+402006,Bethel (Malekula),402
+402007,Botovoro,402
+402008,Chemelvenior,402
+402009,Eripos,402
+402011,Galili,402
+402012,Hirang,402
+402013,Hone,402
+402014,Ili,402
+402015,Jerico,402
+402016,Jerusalem,402
+402017,Labetbak,402
+402018,Labung,402
+402019,Lahabar,402
+402020,Lamarahab,402
+402021,Lanigebog,402
+402022,Larur,402
+402023,Lasarav,402
+402024,Lavalsal,402
+402025,Lavame,402
+402026,Lavor,402
+402027,Lei,402
+402028,Lejernavun,402
+402029,Lembetiar,402
+402030,Lepinmas,402
+402031,Lesarasom,402
+402032,Lesekere,402
+402033,Lolomal,402
+402034,Lopri,402
+402035,Lorelivo,402
+402036,Lourde,402
+402037,Meleb,402
+402038,Melerere,402
+402039,Melmarur,402
+402040,Melnamol,402
+402041,Melnator,402
+402042,Melnatoro,402
+402043,Melsingnow,402
+402044,Naos,402
+402045,Norowre,402
+402046,Omale,402
+402047,Orap,402
+402048,Paita,402
+402049,Paradise,402
+402050,Peker,402
+402051,Penut,402
+402052,Petere,402
+402053,Peterpu,402
+402054,Petervat,402
+402055,Pinalum,402
+402056,Potco,402
+402057,Poton,402
+402058,Potora,402
+402059,Potowar,402
+402060,Preng,402
+402061,Pura,402
+402062,Ramaso,402
+402063,Roma,402
+402064,Rory,402
+402065,Rosbay,402
+402066,Sadere,402
+402067,Saint Joseph,402
+402068,Salenhtor,402
+402069,Santar,402
+402070,Sanwir,402
+402071,Sarepta,402
+402072,Sauci,402
+402073,Senesareth,402
+402074,Serser,402
+402075,Sigon,402
+402076,Sinai,402
+402077,Sisle,402
+402078,St Joseph (Malekula),402
+402079,Tabih,402
+402080,Tchinarmare,402
+402081,Tepune,402
+402082,Teupeer,402
+402083,Teupeev,402
+402084,Tisnemtenwo,402
+402085,Tokvanu,402
+402086,Topet,402
+402087,Tsidavo,402
+402088,Tsinabon,402
+402089,Tsinasets,402
+402090,Tsinembis,402
+402091,Tsinetra,402
+402092,Tsinowone,402
+402093,Twokori,402
+402094,Venu,402
+402095,Veturah,402
+402096,Wala Main Land,402
+402097,Wolomsek,402
+402098,Worari,402
+402099,Worlep,402
+402100,Wormet,402
+402101,Wornari,402
+402102,Woromlaki,402
+402103,Wortatsa,402
+402104,Wrong,402
+999933,Other Village,402
+403001,Aim,403
+403002,Amelaten,403
+403003,Ameli,403
+403004,Atan,403
+403005,Bakor,403
+403006,Baree,403
+403007,Barick,403
+403008,Betuwal,403
+403009,Big Tautu,403
+403010,Bushman'S Bay,403
+403012,Filmbil,403
+403013,Freddy'S Community,403
+403014,George'S Community,403
+403015,Ginonarong,403
+403016,Hatbol,403
+403017,Himorol,403
+403018,Jemes,403
+403019,Kona Point,403
+403020,Lakatoro,403
+403021,Lalep,403
+403022,Lalkofe,403
+403023,Lambubu,403
+403024,Larevet,403
+403025,Lendo,403
+403026,Letevtev,403
+403027,Limap,403
+403028,Lingarakh,403
+403029,Litslits,403
+403030,Louni,403
+403031,Mae,403
+403032,Marybel,403
+403033,Metitar,403
+403034,Namba Wan,403
+403035,Namburakai,403
+403036,Norsup,403
+403037,Potindir,403
+403038,Potnambe,403
+403039,Potun,403
+403040,Rue Bakof,403
+403041,Sarmette,403
+403042,Selektasimal,403
+403043,Selelurai,403
+403044,Selenamboro,403
+403045,Senal,403
+403046,Sirbubul,403
+403047,Small Tautu,403
+403048,Sopon,403
+403049,Tande,403
+403050,Tenmiel,403
+403051,Tevri,403
+403052,Tisvel,403
+403053,Tsele,403
+403054,Vartafo,403
+403055,Vetan,403
+403056,Vilavi,403
+403057,Vinmavis,403
+999934,Other Village,403
+404001,Beneur,404
+404002,Bonvor,404
+404003,Dixon Reef,404
+404004,Enimb,404
+404005,Gami,404
+404006,Labo,404
+404007,Labulwol,404
+404008,Lamango,404
+404009,Lamlo,404
+404010,Larambus,404
+404011,Lawa,404
+404013,Lembinwen,404
+404014,Letokas,404
+404015,Letokhas,404
+404016,Leungaihor,404
+404017,Lorlow,404
+404018,Lu'Umow,404
+404019,Mahafo,404
+404020,Malvakal,404
+404021,Mbwatbang,404
+404022,Melgen,404
+404023,Melip,404
+404024,Melken,404
+404025,Ohiveu,404
+404026,Rejar,404
+404027,Tavendrua,404
+404028,Toman,404
+404029,Vanafus,404
+404030,Veingbongbong,404
+404031,Venamboas,404
+404032,Vorburi,404
+404033,Vunaiamp,404
+404034,Wintua,404
+404035,Witava,404
+404036,Worles,404
+999935,Other Village,404
+405001,Aktep,405
+405002,Aout Veil,405
+405003,Assen,405
+405004,Asuruhk,405
+405005,Asurukh,405
+405006,Aulua,405
+405007,Autof,405
+405008,Banam Bay,405
+405009,Barmadrin,405
+405010,Batambong,405
+405011,Batambu,405
+405012,Batekfaev,405
+405013,Blacksands (Malekula),405
+405014,Burbar,405
+405015,Danperper,405
+405016,Fartavo,405
+405017,Hemerdabos,405
+405018,Hemertabos,405
+405019,Himir Mbuir,405
+405020,Lambulmbatuei,405
+405021,Lanfitfit,405
+405022,Levetbao,405
+405023,Mbangir,405
+405024,Mbatambong,405
+405025,Mbatambu,405
+405026,Mboton,405
+405027,Mbwitin,405
+405028,Metenua,405
+405029,Nambagura,405
+405030,Nduen,405
+405031,Neramb,405
+405032,Novor,405
+405033,Pandeur,405
+405034,Penamur,405
+405035,Rapaksivir,405
+405036,Rembe,405
+405037,Remep,405
+405038,Rensarie,405
+405039,Repanvaun,405
+405040,Reparsivir,405
+405041,Rerep,405
+405042,Retchar,405
+405043,Retur,405
+405044,Ronevier,405
+405045,Ruhumbo,405
+405046,Taremb,405
+405047,Taremb Kiki,405
+405048,Tembibi,405
+405049,Tisman,405
+405050,Town Hall,405
+405051,Uduen,405
+405052,Varak,405
+405053,Vengasis,405
+405054,Weso,405
+999936,Other Village,405
+406001,Areuv,406
+406002,Avock,406
+406003,Barias,406
+406004,Barmandrin,406
+406005,Dravai,406
+406006,Faru,406
+406007,Farun,406
+406008,Haikor,406
+406009,Hokai,406
+406010,Khoti,406
+406011,Lamap,406
+406012,Lampu,406
+406013,Lembu,406
+406014,Lesesa,406
+406015,Livghos,406
+406016,Londrameon,406
+406017,Louru,406
+406018,Lovrow,406
+406019,Lutes,406
+406020,Marbaho,406
+406021,Marpagho,406
+406022,Melward,406
+406023,Merivar,406
+406024,Naraniem,406
+406025,Nivoku,406
+406026,Pellonk,406
+406027,Penap,406
+406028,Penbaghur,406
+406029,Penesies,406
+406030,Peskarus,406
+406031,Port Sandwich,406
+406032,Rambuan,406
+406033,Ravuren,406
+406034,Repanias,406
+406035,Urkeke,406
+406036,Vanmai,406
+999937,Other Village,406
+407001,Behaltalam,407
+407002,Bogor,407
+407003,Envere,407
+407004,Falibour,407
+407005,Fanla,407
+407006,Fanrereo,407
+407007,Fansar,407
+407008,Fantan,407
+407009,Fantcheveur,407
+407010,Farabour,407
+407011,Faramenmenkonkon,407
+407012,Faramsu,407
+407013,Faraptawonwon,407
+407014,Farapupol,407
+407015,Fareavau,407
+407016,Fatima,407
+407017,Fatongtong,407
+407018,Fona,407
+407019,Fonmur,407
+407020,Fonteng,407
+407021,Hahomlam,407
+407022,Halhal Taworo,407
+407023,Harimal,407
+407024,Konkon,407
+407025,Laniokon,407
+407026,Likon,407
+407027,Linbul,407
+407028,Lolibwe,407
+407029,Lonawa,407
+407030,Lonbasil,407
+407031,Lonbwe (Ambrym),407
+407032,Lonlililiu,407
+407033,Lonororo,407
+407034,Lonre,407
+407035,Lonyeokon,407
+407036,Magam,407
+407037,Melbwera,407
+407038,Melpulpul,407
+407039,Meltou,407
+407040,Melvar,407
+407041,Mengamone,407
+407042,Metanli,407
+407043,Nehatling,407
+407044,Neuwa,407
+407045,Nouha,407
+407046,Olal,407
+407047,Olao,407
+407048,Parereu,407
+407049,Pinbang,407
+407050,Pokor,407
+407051,Rabetewau,407
+407052,Ranbe,407
+407053,Ranbetewau,407
+407054,Ranhor,407
+407055,Ranmuhu,407
+407056,Ranon,407
+407057,Ranvergere,407
+407058,Ranvetlam,407
+407059,Tongbang,407
+407060,Topol,407
+407061,Vanjevere,407
+407062,Wilit,407
+407063,Wou,407
+999938,Other Village,407
+408001,Baiap,408
+408002,Bwele,408
+408003,Enmila,408
+408004,Ewu,408
+408005,Fali,408
+408006,Graigcove/Fali,408
+408007,Lalinda,408
+408008,Lalinda S.D.A,408
+408009,Lanver,408
+408010,Lele,408
+408011,Lolibulo,408
+408012,Lolonwei,408
+408013,Lonmei,408
+408014,Malvet,408
+408015,Maranata,408
+408016,Melkon,408
+408017,Melten,408
+408018,Meltugon,408
+408019,Pelipetakever,408
+408020,Port Vato,408
+408021,Ravolvert,408
+408022,Sanesup,408
+408023,Sesivi,408
+408024,Sulol,408
+408025,Tobol,408
+408026,Tou,408
+408027,Wakon,408
+408028,Wuro,408
+408029,Yaliviliv,408
+408030,Yautilie,408
+408031,Yelahae,408
+408032,Yelevak,408
+408033,Yelovuvu,408
+408034,Yenteneleo,408
+999939,Other Village,408
+409001,Ase,409
+409002,Barereo,409
+409003,Endu Pehakul,409
+409004,Endu Poal,409
+409005,Etong,409
+409006,Maat,409
+409007,Mbareas,409
+409008,Mboi,409
+409009,Moru,409
+409010,Pahasangat,409
+409011,Pamal,409
+409012,Penapo,409
+409013,Renau,409
+409014,Sahuot,409
+409015,Sai Bethel,409
+409016,Sameou,409
+409017,Senai,409
+409018,Taviak,409
+409019,Toak,409
+409020,Ulei,409
+409021,Utas,409
+409022,Vamaveok,409
+409023,Vanen,409
+409024,Vemali,409
+409025,Vembaksambai,409
+999940,Other Village,409
+410001,Amalhatili,410
+410002,Hingal,410
+410003,Hollen,410
+410004,Kelai,410
+410005,Lakelai,410
+410006,Lehili,410
+410007,Liro,410
+410008,Liro Nessa,410
+410009,Lulep,410
+410010,Luli,410
+410011,Nou,410
+410012,Oailep,410
+410013,Tahal Nesa,410
+410014,Tahal Netan,410
+410015,Tahi,410
+410016,Tavie,410
+410017,Tavulai,410
+410018,Tevali,410
+410019,Tevali Aot,410
+410020,Vaoleli,410
+410021,Vutekai,410
+410022,Zulu,410
+999941,Other Village,410
+501001,Alak,501
+501002,Esake,501
+501003,Komerana,501
+501004,Lamenu Bay,501
+501005,Lemaru,501
+501006,Lumapiluva,501
+501007,Malpasi,501
+501008,Mela,501
+501009,Mobarawa,501
+501010,Ngalokumal,501
+501011,Ngaloparua,501
+501012,Ngalovasoro,501
+501013,Niku,501
+501014,Niu Ples,501
+501015,Paia,501
+501016,Pongovia,501
+501017,Pulkawa,501
+501018,Pulpiara,501
+501019,Rovo Bay,501
+501020,Silowe,501
+501021,Vaemali,501
+501022,Walavea,501
+501023,Wenia,501
+501024,Yevali,501
+501025,Yopuna,501
+999942,Other Village,501
+502001,Anduan,502
+502002,Banga,502
+502003,Botndaso,502
+502004,Boueboue,502
+502005,Burumba,502
+502006,Chumasmoe,502
+502007,Coldwater,502
+502008,Foreland,502
+502009,Kalala,502
+502010,Kausu,502
+502011,Lempeto,502
+502012,Mabfilau,502
+502013,Mapvilao,502
+502014,Masou,502
+502015,Mbembe,502
+502016,Mbosovanoi,502
+502017,Metano,502
+502018,Nambatri (Epi),502
+502019,Paen,502
+502020,Panga,502
+502021,Pute,502
+502022,Samatua,502
+502023,Sara (Epi),502
+502024,Taliko,502
+502025,Valesdir,502
+502026,Votlo,502
+502027,Wambi,502
+999943,Other Village,502
+503001,Lepa,503
+503002,Lokopuwi,503
+503003,Manganua,503
+503004,Manul,503
+503005,Mate 1,503
+503006,Mate 2,503
+503007,Moriu,503
+503008,Ngevin,503
+503009,Nikaura,503
+503010,Nivenue,503
+503011,Nuvi,503
+503012,P Late,503
+503013,Prilmalko,503
+999944,Other Village,503
+504001,Amaro,504
+504002,Filakara,504
+504003,Lemaroro,504
+504004,Lemboro,504
+504005,Longlaki,504
+504006,Lopalis,504
+504007,Melvan,504
+504008,Mematanga,504
+504009,Nalema,504
+504010,Nazareth (Epi),504
+504011,Nul Nessa,504
+504012,Oreau,504
+504013,Port Quime,504
+504014,Rana,504
+504015,Red Stone,504
+504016,Tamasina,504
+504017,Taolia,504
+504018,Tikelele,504
+504019,Tomali,504
+504020,Vatukiki,504
+504021,Worarana,504
+999945,Other Village,504
+505001,Burao,505
+505002,Euta,505
+505003,Itakoma,505
+505004,Kurumambe,505
+505005,Lupalea,505
+505006,Mangarisu,505
+505007,Matangi (Tongoa),505
+505008,Morua,505
+505009,Pele,505
+505010,Purao,505
+505011,Ravenga,505
+505012,Ravengakuskusu,505
+505013,Woraviu,505
+505014,Worfiu,505
+999946,Other Village,505
+506001,Bongabonga,506
+506002,Erata,506
+506003,Kokonak,506
+506004,Kurumbat,506
+506005,Lakilia,506
+506006,Lewaima,506
+506007,Lumbukuti,506
+506008,Mbwarih,506
+506009,Meriu,506
+506010,Mount Zion,506
+506011,Mulohol,506
+506012,Nambangasale,506
+506013,Panita,506
+506014,Tavia,506
+999947,Other Village,506
+507001,Botuai,507
+507002,Finonge,507
+507003,Makatea,507
+507004,Makatu,507
+507005,Makatu Natiti,507
+507006,Malakoto,507
+507007,Marae,507
+507008,Mbotuai,507
+507009,Na'Asang,507
+507010,Ngaone,507
+507011,Safuti,507
+507012,Sangava,507
+507013,Sasake,507
+507014,Siwo,507
+507015,Sulua,507
+507016,Tapakoro,507
+507017,Tongamea,507
+507018,Vaima,507
+507019,Vaitini,507
+999948,Other Village,507
+508001,Farealapa,508
+508002,Kakula,508
+508003,Laonamoa,508
+508004,Launamoa,508
+508005,Malaliu,508
+508006,Matoa,508
+508007,Mere,508
+508008,Nekapa,508
+508009,Peliura,508
+508010,Piliura,508
+508011,Rewoka Namalasi,508
+508012,Rewoka Napua,508
+508013,Tikilasoa,508
+508014,Udapua,508
+508015,Unakapu,508
+508016,Utanlangi,508
+508017,Werearu,508
+508018,Woralapa,508
+508019,Worasifiu,508
+508020,Worearu,508
+999949,Other Village,508
+509001,Lausake,509
+509002,Mangarongo,509
+509003,Mapua,509
+509004,Marow,509
+509005,Ngurua,509
+509006,Wiana,509
+999950,Other Village,509
+510001,Bukura,510
+510002,Devil'S Point,510
+510003,Evergreen,510
+510004,Kakola,510
+510005,Lama Mountian,510
+510006,Lelo,510
+510007,Malafao,510
+510008,Malafau,510
+510009,Mangaliliu,510
+510010,Mangaturua,510
+510011,Maritao,510
+510012,Maturu,510
+510013,Meten,510
+510014,Natapau,510
+510015,Port Havanah,510
+510016,Pukura,510
+510017,Samoa Point,510
+510018,Siviri,510
+510019,Snake Hill,510
+510020,Sunae,510
+510021,Sunai,510
+510022,Tamate (Klem'S Hill),510
+510023,Tanoliu,510
+510024,Tasiriki,510
+510025,Tasiriki (Moso),510
+510026,Tavaralapa,510
+510027,Tukutuku,510
+510028,Undine Bay,510
+999951,Other Village,510
+511001,Ekipe,511
+511002,Emua,511
+511003,Epule,511
+511004,Matarisu,511
+511005,Onesua,511
+511006,Paonangisu,511
+511007,Saama,511
+511008,Takara,511
+999952,Other Village,511
+512001,Hideaway Island,512
+512002,Mele,512
+512004,Melemaat,512
+512006,Severua,512
+999953,Other Village,512
+513001,2Nd Lagoon,513
+513002,Agathis,513
+513003,Bellevue,513
+513004,Beverly Hills,513
+513007,Ellouk,513
+513008,Freswota 1,513
+513009,Freswota 2,513
+513010,Freswota 3,513
+513011,Freswota 4,513
+513012,Freswota 5,513
+513013,Freswota 6,513
+513014,Independence Park,513
+513015,Iririki,513
+513016,Joint Court,513
+513018,Kokoreko,513
+513019,Korman Stadium,513
+513020,Le Lagoon,513
+513021,Malapoa Estate,513
+513022,Malapoa Whitewood,513
+513023,Manples,513
+513024,Monmartre,513
+513025,Nambatri (Efate),513
+513026,Nambatri Ellouk,513
+513027,Nambatu,513
+513028,Nambatu Wallis,513
+513029,Namburu,513
+513030,Ohlem Mataso,513
+513031,Ohlen,513
+513032,Ohlen Freswin,513
+513033,Ohlen Nambanga,513
+513035,Seaside,513
+513036,Simbolo,513
+513037,Smet,513
+513038,Socapo,513
+513040,Stade,513
+513042,Switi,513
+513043,Tagabe,513
+513044,Tagabe Bridge,513
+513045,Tasiriki (Vila),513
+513046,Tebakor,513
+513047,Tokyo,513
+513048,Vila North,513
+513049,Vila Town (Cbd),513
+513050,Vmf Camp,513
+999954,Other Village,513
+514001,Ifira,514
+514002,Nokosake,514
+514003,Tamaunu,514
+514004,Tokove,514
+514005,Worauloa,514
+999955,Other Village,514
+515001,Efalefale,515
+515002,Pango Esnar,515
+515003,Green Cove,515
+515004,Pango Ids,515
+515005,Pango,515
+999956,Other Village,515
+516001,Bouffa,516
+516002,Erakor,516
+516003,Erakor Bridge,516
+516004,Erakor Is.,516
+516005,Erangorango,516
+516006,Ernas,516
+516007,Etas,516
+516008,Lololima,516
+516009,Montmatre,516
+516010,Sirisiri,516
+516011,Stella Marie,516
+999957,Other Village,516
+517001,Chicken City,517
+517002,Club Hippique,517
+517003,Emten,517
+517004,Eratap,517
+517005,Eratap Hafrod,517
+517006,Tamanu,517
+517007,Teouma Bay,517
+517008,Teouma Bush,517
+517009,Teouma Nttm,517
+517010,Teouma Valley,517
+517011,Teoumaville,517
+517012,V.L.D,517
+517013,White Sands,517
+999958,Other Village,517
+518001,Alarip,518
+518002,Banana Bay,518
+518003,Blue Water Island Resort,518
+518004,Boukaliu,518
+518005,Buraoloa,518
+518006,Emetnaniu,518
+518007,Enam,518
+518008,Epao,518
+518009,Erueti,518
+518010,Eton,518
+518011,Forari,518
+518012,La Cressonniere,518
+518013,La Mine,518
+518014,Malarip,518
+518015,Manuro,518
+518016,Pang Pang,518
+518017,Poi,518
+518018,Rentabao,518
+999959,Other Village,518
+519001,Prima,519
+519002,Waisisi (Efate),519
+519003,Blacksands (Efate),519
+519004,Bladiniere Estate,519
+519005,Kaweriki,519
+519006,Salili,519
+519007,Sorovanga,519
+519008,Sumalapa,519
+999960,Other Village,519
+601001,Ilvukalam,601
+601002,Ipota,601
+601003,Port Narvin,601
+601004,Rantuopongil,601
+601005,Raovis,601
+601006,Sipiopu,601
+601007,Sowki,601
+601008,Towit,601
+601009,Tuwit,601
+601010,Unalvin,601
+601011,Unavwolu,601
+601012,Unpongkor,601
+601013,Wargi,601
+999961,Other Village,601
+602001,Antioch,602
+602002,Buniakup,602
+602003,Ifo,602
+602004,Nevsem,602
+602005,Pongkil,602
+602006,Pontirausak,602
+602007,Pontutu,602
+602008,Ponumbia,602
+602009,Potlusi,602
+602010,Pumari,602
+602011,Rampunmougo,602
+602012,Rampunrungu,602
+602013,Rampunwemog,602
+602014,Tamsel,602
+602015,Umpon Yelogi,602
+602016,Umponmopu,602
+602017,Unognombi,602
+602018,Unorah,602
+602019,Yasauwi,602
+999962,Other Village,602
+603001,Ifangawe,603
+603002,Ikaokao,603
+603003,Imale,603
+603004,Imasa,603
+603005,Isavai,603
+603006,Itangutu,603
+999963,Other Village,603
+604001,Enamel,604
+604002,Enauhrat,604
+604003,Eniu,604
+604004,Enpek Lapen,604
+604005,Enuaker,604
+604006,Ethaul,604
+604007,Fetukai,604
+604008,Green Hill,604
+604009,Hebron,604
+604010,Imafen,604
+604011,Imnakaip,604
+604012,Ipneme,604
+604013,Itonga,604
+604014,Ivenkula,604
+604015,Laimira,604
+604016,Laketam,604
+604017,Lakhalu,604
+604018,Lamakawin,604
+604019,Lamal,604
+604020,Lamaling,604
+604021,Lamanapiep,604
+604022,Laotires,604
+604023,Lapang Nuo,604
+604024,Lapasalis,604
+604025,Laupilpil,604
+604026,Laur,604
+604027,Laus,604
+604028,Lawir,604
+604029,Lawital,604
+604030,Leketam,604
+604031,Lenafa,604
+604032,Lenoakas,604
+604033,Lepuku,604
+604034,Lesinan,604
+604035,Lewiar,604
+604036,Loknarap,604
+604037,Louamel,604
+604038,Louelapoma,604
+604039,Louital,604
+604040,Loukaolis,604
+604041,Loukaramagen,604
+604042,Lounakke,604
+604043,Lounapaiu,604
+604044,Lounapikruan,604
+604045,Lounapil,604
+604046,Lounasunan,604
+604047,Lounatanu,604
+604048,Lounibil,604
+604049,Lounim Ahapen,604
+604050,Lounoah,604
+604051,Lowanpakel,604
+604052,Lowkara Mangin,604
+604053,Lownaleng,604
+604054,Lownang,604
+604055,Lownepina,604
+999964,Other Village,604
+605001,Bethel (Tanna),605
+605002,Emanam,605
+605003,Ienepir,605
+605004,Ifa,605
+605005,Ikaoras,605
+605006,Ikiakis,605
+605007,Ikunala,605
+605008,Ikunuingen,605
+605009,Ikurakus,605
+605010,Ikutengteng,605
+605011,Ilmanga,605
+605012,Ilpanak,605
+605013,Imaelone,605
+605014,Imaemsine,605
+605015,Imaen,605
+605016,Imai,605
+605017,Imanaka,605
+605018,Imanam,605
+605019,Imasu,605
+605020,Ipai,605
+605021,Irakik,605
+605022,Isaaka (West Tanna),605
+605023,Isangel,605
+605024,Isini,605
+605025,Itunga,605
+605026,Iunier,605
+605027,Iwahu,605
+605028,Iwarao,605
+605029,Katinaluluiken,605
+605030,Lafna,605
+605031,Lakalangia,605
+605032,Lamanafa,605
+605033,Lamanamilang,605
+605034,Lamanian,605
+605035,Lamaniu Tuan,605
+605036,Lamkail,605
+605037,Lamrao,605
+605038,Lamthawekal,605
+605039,Laninik,605
+605040,Lapang Tuai,605
+605041,Lapkit,605
+605042,Lapnuman,605
+605043,Larkam,605
+605044,Laruanu,605
+605045,Lekapo,605
+605046,Lenagiang,605
+605047,Lenakel,605
+605048,Lenamir,605
+605049,Lenarawia,605
+605050,Lenatam,605
+605051,Lenawawa,605
+605052,Leneai,605
+605053,Lenepir,605
+605054,Lenmawut,605
+605055,Lenpeukel,605
+605056,Lenuvalu,605
+605057,Letawaus,605
+605058,Letowopam,605
+605059,Loaneai,605
+605060,Lomteuheakal,605
+605061,Louanatom,605
+605062,Louanatuan,605
+605063,Louaneai,605
+605064,Louaneiai,605
+605065,Louealeuv,605
+605066,Louiasurirau,605
+605067,Louiawanen,605
+605068,Louikao,605
+605069,Loukahin,605
+605070,Loukahwain,605
+605071,Loukatai,605
+605072,Loukearu,605
+605073,Loukulua,605
+605074,Loukweria,605
+605075,Louliuliu,605
+605076,Loumukmuk,605
+605077,Lounampas,605
+605078,Lounapikmita,605
+605079,Lounapkamei,605
+605080,Lounapkao,605
+605081,Lounara,605
+605082,Lounelapen,605
+605083,Lounikawik,605
+605084,Louniparu,605
+605085,Lousivir,605
+605086,Louteth,605
+605087,Lowkas,605
+605088,Lowkearu,605
+605089,Lowliuliu,605
+605090,Lown,605
+605091,Lownap Kayoayo,605
+605092,Lownapiktuan,605
+605093,Lownapkamei,605
+605094,Lownapkiko,605
+605095,Lownara (West Tanna),605
+605096,Lownik,605
+605097,Lowtaliko,605
+605098,Lowya,605
+605099,Pangkales,605
+605100,Saikariaeken,605
+605101,Tapa,605
+605102,Tennis,605
+605103,Towaolul,605
+605104,White Grass,605
+605105,Yakulpow,605
+605106,Yakun Aveuka,605
+605107,Yanakwa,605
+605108,Yanapukul,605
+605109,Yankwa Netatna,605
+605110,Yekunauka,605
+605111,Yenaohia,605
+605112,Yunaras,605
+605113,Yuniar,605
+605114,Yurnaip,605
+605115,Yuwunier,605
+999965,Other Village,605
+606001,Enegam,606
+606002,Iaueru,606
+606003,Ikalev,606
+606004,Ikapow,606
+606005,Ilpeutu,606
+606006,Imapusaine,606
+606007,Imaru,606
+606008,Iwahlan,606
+606009,Iwarua,606
+606010,Iwel,606
+606011,Kaonameiken,606
+606012,Koyarwelekiken,606
+606013,Lahwenata,606
+606014,Lamahnuat,606
+606015,Lamalalmita,606
+606016,Lamanul,606
+606017,Lamanuo,606
+606018,Laminaora,606
+606019,Laminuha,606
+606020,Lamitatal,606
+606021,Lamlu,606
+606022,Lamnatu,606
+606023,Lamngetuan,606
+606024,Lanimlelang,606
+606025,Laol,606
+606026,Lapang Nuying,606
+606027,Latuei,606
+606028,Latun,606
+606029,Lawenata,606
+606030,Lawmelu,606
+606031,Lelualu,606
+606032,Lenaken,606
+606033,Lenatuan,606
+606034,Lenemita,606
+606035,Lenepin,606
+606036,Lenpupu Nipin,606
+606037,Letanu,606
+606038,Letowat,606
+606039,Levlik,606
+606040,Louakal,606
+606041,Loueao,606
+606042,Louiaru,606
+606043,Loukalou,606
+606044,Loumapruan,606
+606045,Loumetuan,606
+606046,Loumia,606
+606047,Lounahuan,606
+606048,Lounahuru,606
+606049,Lounakiamapen,606
+606050,Lounakik,606
+606051,Lounakura,606
+606052,Lounamal,606
+606053,Lounamilo,606
+606054,Lounapalulua,606
+606055,Lounapkau Langis,606
+606056,Lounapuak,606
+606057,Lounatim,606
+606058,Lounihm,606
+606059,Lounuala,606
+606060,Lounuotuan,606
+606061,Lousiganu,606
+606062,Loweao,606
+606063,Lowkamal,606
+606064,Lowkanine,606
+606065,Lowkaru,606
+606066,Lownamak,606
+606067,Lownaowla,606
+606068,Lownapik,606
+606069,Lownara (Middle Bush),606
+606070,Lownekawek,606
+606071,Lowpukas,606
+606072,Lowteklepe-Tuan,606
+606073,Yawus,606
+606074,Yuia,606
+606075,Yunapek,606
+606076,Yuniel,606
+999966,Other Village,606
+607001,Emanie R,607
+607002,Enfitana,607
+607003,Green Point,607
+607004,Iakel,607
+607005,Iakus,607
+607006,Iamalmalba,607
+607007,Ianaikuaihuk,607
+607008,Ianemra,607
+607009,Ianfulia,607
+607010,Iankuenekap,607
+607011,Iankwa Nenpek,607
+607012,Iansip,607
+607013,Ianumnawa,607
+607014,Iapangnava,607
+607015,Iapnamal,607
+607016,Iapnoutaling,607
+607017,Iatap,607
+607018,Ienfitana,607
+607019,Iepilmail,607
+607020,Ietelket,607
+607021,Ikakahak,607
+607022,Ikiti,607
+607023,Ikiyo,607
+607024,Ikunakut,607
+607025,Ikunap,607
+607026,Ikunara,607
+607027,Ikurapow,607
+607028,Ikwipir,607
+607029,Imakal,607
+607030,Imana,607
+607031,Imapel,607
+607032,Ipilmai,607
+607033,Isangel (S),607
+607034,Kleitaleiken,607
+607035,Koraioken,607
+607036,Kraitanaigen,607
+607037,Kwataparen,607
+607038,Laukau,607
+607039,Lowkamas,607
+607040,Lowkweria (Sw Tanna),607
+607041,Nakaka,607
+607042,Nehebe,607
+607043,Tamaruk,607
+607044,Tapum,607
+607045,Yahlia,607
+607046,Yakasever,607
+607047,Yakel,607
+607048,Yakukak,607
+607049,Yakunaveuka,607
+607050,Yakurak,607
+607051,Yakwelin,607
+607052,Yalkis,607
+607053,Yallia,607
+607054,Yanaolowol,607
+607055,Yanapek,607
+607056,Yaneai,607
+607057,Yaneumra,607
+607058,Yanfulia,607
+607059,Yankuanenetata,607
+607060,Yankwa Napkapa,607
+607061,Yankwa Neneai,607
+607062,Yankwa Nenepum,607
+607063,Yaohnanen,607
+607064,Yapang Nawa,607
+607065,Yapkeusep,607
+607066,Yapnaitaleng,607
+607067,Yaruareng,607
+607068,Yastoa,607
+607069,Yatakwas Kamil,607
+607070,Yatanas,607
+607071,Yataphum,607
+607072,Yatpalanien,607
+607073,Yatukwas,607
+607074,Yawenkula,607
+607075,Yenakul,607
+607076,Yenalual,607
+607077,Yenapkasu,607
+607078,Yenata,607
+607079,Yenawan,607
+607080,Yenhup,607
+607081,Yenpenarap,607
+607082,Yenpinan,607
+607083,Yenuglapang,607
+607084,Yeruareng,607
+607085,Yerutana,607
+607086,Yetan Meren,607
+607087,Yetanmalen,607
+999967,Other Village,607
+608001,Dip Point,608
+608002,Enalngunia,608
+608003,Enaola,608
+608004,Enawra,608
+608005,Enbaraben,608
+608006,Eniai,608
+608007,Enima,608
+608008,Enkatele,608
+608009,Enma Tangi,608
+608010,Entauat,608
+608011,Fatarapa,608
+608012,Iakumeapsen,608
+608013,Iamravang,608
+608014,Ianapai,608
+608015,Ianarao,608
+608016,Iankula,608
+608017,Ianuak,608
+608018,Iarkei,608
+608019,Iarkunuie,608
+608020,Iatukuri,608
+608021,Ienkuru,608
+608022,Ihlareng,608
+608023,Ikurakau,608
+608024,Ikurup,608
+608025,Ikutuhmien,608
+608026,Ilisilis,608
+608027,Imalet,608
+608028,Imanmaneng,608
+608029,Imayo,608
+608030,Ipeukel,608
+608031,Ipkagien,608
+608032,Ipkangien,608
+608033,Iquaramanu,608
+608034,Irulkolewa,608
+608035,Isaaka (Whitesands),608
+608036,Isarkei,608
+608037,Kalali,608
+608038,Karunanen,608
+608039,Kings Cross,608
+608040,Kitow,608
+608041,Kukarua,608
+608042,Lahwenuwi,608
+608043,Lamanapiepi,608
+608044,Lamanaruan,608
+608045,Lamangoati,608
+608046,Lapangtowa,608
+608047,Lapeiu,608
+608048,Latapu,608
+608049,Lautapunga,608
+608050,Lavavia,608
+608051,Lawangi,608
+608052,Loanengo,608
+608053,Loearfi,608
+608054,Lokaim,608
+608055,Loubali,608
+608056,Loukauan,608
+608057,Lounamin,608
+608058,Lounang,608
+608059,Lounapuas,608
+608060,Louniel,608
+608061,Lounou,608
+608062,Lowakao,608
+608063,Lowiepeng,608
+608064,Lowkane,608
+608065,Lowmatumatu,608
+608066,Lownapik Tenaomus,608
+608067,Lownasunan,608
+608068,Lownasurien,608
+608069,Lowniel,608
+608070,Lownien Apihil,608
+608071,Lownow,608
+608072,Lowoetuma,608
+608073,Lowtapunga,608
+608074,Maleliu,608
+608075,Manuapen,608
+608076,Natanu,608
+608077,Nawating,608
+608078,Sameria,608
+608079,Waisisi (Tanna),608
+608080,Yakunekaunun,608
+608081,Yakwasaku,608
+608082,Yanapuasiko,608
+608083,Yanarawia,608
+608084,Yaneumakel,608
+608085,Yankula,608
+608086,Yankwanemi,608
+608087,Yankwanpakar,608
+608088,Yanmilen,608
+608089,Yanumakel,608
+608090,Yapowul,608
+608091,Yatukuei,608
+608092,Yenaes,608
+608093,Yenamahu,608
+608094,Yenapuas,608
+608095,Yenatoka,608
+608096,Yenemaha,608
+608097,Yetapir,608
+608098,Yetapu,608
+608099,Yetaus,608
+999968,Other Village,608
+609001,High Hill,609
+609002,Imaki,609
+609003,Imarkakak,609
+609004,Isiai,609
+609005,Itapua,609
+609006,Kwamera,609
+609007,Yakumanerei,609
+609008,Yakunaus,609
+609009,Yakwaraka,609
+609010,Yakwariteng,609
+609011,Yanemarai,609
+609012,Yapkapen,609
+609013,Yarkwaraka,609
+609014,Yarofi,609
+609015,Yenamu,609
+999969,Other Village,609
+610001,Iasoa,610
+610002,Imarae,610
+610003,Ipau,610
+610004,Ishia,610
+610005,Isia,610
+610006,Itaromara,610
+610007,Itavai,610
+610008,Matangi (Aniwa),610
+610009,Monga Ehluga,610
+610010,Nakiroa,610
+610011,Napua,610
+610012,Vaiora,610
+999970,Other Village,610
+611001,Amplithei,611
+611002,Anadwei,611
+611003,Anauamet,611
+611004,Anawanjei,611
+611005,Anelgowhat,611
+611006,Anelluhu,611
+611008,Anowunamlao,611
+611009,Anoyac,611
+611010,Anpekeh,611
+611011,Antap,611
+611012,Esino,611
+611013,Inap,611
+611014,Itchepthav,611
+611015,Ivanelhat,611
+611016,Umeij,611
+611017,Utche,611
+611018,Uwonmohoc,611
+611019,Yatalotu,611
+999971,Other Village,611
