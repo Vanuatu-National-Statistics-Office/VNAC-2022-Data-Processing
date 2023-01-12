@@ -93,7 +93,7 @@ high_value_crops <- dbGetQuery(mydb, "SELECT id,
                            ")
 
 household_hvCrops <- geography_section1 %>% left_join(high_value_crops)
-
+#testhh <- merge(geography_section1, high_value_crops, by = "id")
 
 
 cattle_number <- dbGetQuery(mydb, "SELECT id,
@@ -238,6 +238,8 @@ section5_cattle <- function(householdCattle){
                                    LEFT JOIN cattleIdent ON main.Q050303a = cattleIdent.recid
                                    LEFT JOIN cattleSlaughterPurpose ON main.Q050305 = cattleSlaughterPurpose.recid
                                    LEFT JOIN livestockkeptMethod ON main.Q050301 = livestockkeptMethod.recid
+                                   
+                                   WHERE main.can_enumerate = 1
                         
                         ")
   
@@ -521,6 +523,52 @@ enum_totalDays <- dbGetQuery(mydb, "SELECT responsible, COUNT(DISTINCT(mydate)) 
 interviewerCollections <- merge(enum_interviews, enum_totalDays, by = "responsible")
 
 interviewerCollections$dailyAverage <- round(interviewerCollections$interviews / interviewerCollections$totalDays, digits = 2)
+
+
+
+
+
+
+
+# **************************************** End of Section 6 Data **********************************************************
+
+#### Section 11 Labour Force ####
+
+# **************************************** Beginning of Section 11  Data ***************************************************
+
+labour_section11 <- dbGetQuery(mydb, "SELECT main.id,
+                                                 main.interview__id,
+                                                 main.province,
+                                                 province.provname,
+                                                 main.island,
+                                                 island.islandname,
+                                                 main.area_council,
+                                                 ac.acname,
+                                                 main.ea_number,
+                                                 main.village,
+                                                 village.villagename,
+                                                 main.new_village,
+                                                 main.can_enumerate,
+                                                 main.employ,
+                                                 labourHiredComposition.sexEmploy,
+                                                 labourHiredComposition.ageEmploy
+                                                 
+                                                 FROM main
+                                                 
+                                                 INNER JOIN province ON main.province = province.provid
+                                                 INNER JOIN island ON main.island = island.islandid
+                                                 INNER JOIN ac ON main.area_council = ac.acid
+                                                 INNER JOIN village ON main.village = village.villageid
+                                                 LEFT JOIN labourHiredComposition ON main.id = labourHiredComposition.id
+                                                 
+                                                 WHERE can_enumerate = 1
+                                                 
+                                                 
+                                                 
+                                                 ")
+
+
+
 
 
 
