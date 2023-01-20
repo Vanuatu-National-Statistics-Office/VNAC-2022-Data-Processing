@@ -570,7 +570,7 @@ labour_section11 <- dbGetQuery(mydb, "SELECT main.id,
                                                  main.Q01103 AS 'Hired Organizations/Groups',
                                                  main.Q0110300 AS 'Number of Organizations/Groups Hired',
                                                  organisationComposition.Q0110302 AS 'Number of Male',
-                                                 organisationComposition.Q0110303 AS 'Number of Female'
+                                                 organisationComposition.Q0110303 AS 'Number ofFemale'
                                                  
                                                  FROM main
                                                  
