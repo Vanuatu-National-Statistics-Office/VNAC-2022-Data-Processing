@@ -17,6 +17,15 @@ tags$head(tags$script(src = "message-handler.js"))
 
 mydb <- dbConnect(RSQLite::SQLite(), "vnac2022.sqlite")
 
+#### Look-up tables Preparation ####
+mainActivityEmploy <- read.csv(file = "mainActivityEmploy.csv") # read Main Activity done by Employer in Question Q11.2.3
+dbWriteTable(mydb, "mainActivityEmploy", mainActivityEmploy, overwrite = TRUE) # writing Main Activity done by Employer in Question Q11.2.3 to Database
+
+sex <- read.csv(file = "sex.csv") # read sex of household members
+dbWriteTable(mydb, "sex", sex, overwrite = TRUE) # write sex df to database
+
+benefitsEmploy <- read.csv(file = "benefitsEmploy.csv") # read in Benefits that hired employees receive
+dbWriteTable(mydb, "benefitsEmploy", benefitsEmploy, overwrite=TRUE) # write benefitsEmploy df to mydb database
 
 #### Geographical Location Dataset function ####
 
@@ -265,7 +274,7 @@ section5_cattle <- function(householdCattle){
 }
 
 
-# section 5 Sheeps
+#### Section 5 Sheep ####
 
 section_sheep <- function(householdSheep){
   sheepStock <- dbGetQuery(mydb, "SELECT main.id,
@@ -329,10 +338,10 @@ section_sheep <- function(householdSheep){
   
   
 }
+# **************************************** End of Section 5 Data **********************************************************
 
 
 
-# **************************************** End of Section5 Data **********************************************************
 
 #### Section 6 Forestry ####
 
@@ -527,11 +536,7 @@ interviewerCollections$dailyAverage <- round(interviewerCollections$interviews /
 
 
 
-
-
-
 # **************************************** End of Section 6 Data **********************************************************
-
 #### Section 11 Labour Force ####
 
 # **************************************** Beginning of Section 11  Data ***************************************************
@@ -551,7 +556,21 @@ labour_section11 <- dbGetQuery(mydb, "SELECT main.id,
                                                  main.can_enumerate,
                                                  main.employ,
                                                  labourHiredComposition.sexEmploy,
-                                                 labourHiredComposition.ageEmploy
+                                                 sex.sexdesc,
+                                                 labourHiredComposition.ageEmploy,
+                                                 labourHiredComposition.mainActivityEmploy,
+                                                 mainActivityEmploy.mainActivityEmploydesc,
+                                                 labourHiredComposition.hoursEmploy,
+                                                 labourHiredComposition.paidCashEmploy,
+                                                 labourHiredComposition.amountPaidEmploy,
+                                                 labourHiredComposition.benefitsEmploy__1 AS 'No other benefits',
+                                                 labourHiredComposition.benefitsEmploy__2 AS 'Free or subsidized housing',
+                                                 labourHiredComposition.benefitsEmploy__3 AS 'Free meals',
+                                                 labourHiredComposition.benefitsEmploy__4 AS 'Other benefits',
+                                                 main.Q01103 AS 'Hired Organizations/Groups',
+                                                 main.Q0110300 AS 'Number of Organizations/Groups Hired',
+                                                 organisationComposition.Q0110302 AS 'Number of Male',
+                                                 organisationComposition.Q0110303 AS 'Number of Female'
                                                  
                                                  FROM main
                                                  
@@ -560,7 +579,10 @@ labour_section11 <- dbGetQuery(mydb, "SELECT main.id,
                                                  INNER JOIN ac ON main.area_council = ac.acid
                                                  INNER JOIN village ON main.village = village.villageid
                                                  LEFT JOIN labourHiredComposition ON main.id = labourHiredComposition.id
-                                                 
+                                                 LEFT JOIN mainActivityEmploy ON labourHiredComposition.mainActivityEmploy = mainActivityEmploy.recid
+                                                 LEFT JOIN sex ON labourHiredComposition.sexEmploy = sex.sexid
+                                                 LEFT JOIN organisationComposition ON main.id = organisationComposition.id
+                                                
                                                  WHERE can_enumerate = 1
                                                  
                                                  
@@ -569,7 +591,7 @@ labour_section11 <- dbGetQuery(mydb, "SELECT main.id,
 
 
 
-
+# **************************************** End of Section 11 Data **********************************************************
 
 
 #### geographical Location ####
