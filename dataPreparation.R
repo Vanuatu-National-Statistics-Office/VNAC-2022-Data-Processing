@@ -524,6 +524,118 @@ interviewerCollections$dailyAverage <- round(interviewerCollections$interviews /
 
 
 
+#### Section 10 Agriculture Service ####
+
+# **************************************** Beginning of Section 10 Data ***************************************************
+
+agriculture_service <- dbGetQuery(mydb, "SELECT main.id,
+                                      main.province,
+                                      province.provname,
+                                      main.island,
+                                      island.islandname,
+                                      main.area_council,
+                                      ac.acname,
+                                      main.ea_number,
+                                      main.village,
+                                      village.villagename,
+                                      main.new_village,
+                                      main.can_enumerate,
+                                      main.Q1105__1 AS government,
+                                      main.Q1105__2 AS ngo,
+                                      main.Q1105__3 AS private_org,
+                                      main.Q1105__4 AS donor_fund,
+                                      assistanceComposition.Q1106__1 AS seedlings,
+                                      assistanceComposition.Q1106__2 AS seeds,
+                                      assistanceComposition.Q1106__3 AS nursery,
+                                      assistanceComposition.Q1106__4 AS agro_inputs,
+                                      assistanceComposition.Q1106__5 AS farm_road,
+                                      assistanceComposition.Q1106__6 AS feed,
+                                      assistanceComposition.Q1106__7 AS fencing_materials,
+                                      assistanceComposition.Q1106__8 AS farm_implements,
+                                      assistanceComposition.Q1106__9 AS extension_advice,
+                                      assistanceComposition.Q1106__10 AS poultry_sheds, 
+                                      assistanceComposition.Q1106__11 AS layerbirds,
+                                      assistanceComposition.Q1106__12 AS sheep_stck,
+                                      assistanceComposition.Q1106__13 AS water_tnk,
+                                      assistanceComposition.Q1106__14 AS incentive_grnt,
+                                      assistanceComposition.Q1106__15 AS fishing_boat,
+                                      assistanceComposition.Q1106__16 AS other,
+                                      main.Q1107__1 AS extension_visit,
+                                      main.Q1107__2 AS training,
+                                      main.Q1107__3 AS radio_prgm,
+                                      main.Q1107__4 AS tv_prgm,
+                                      main.Q1107__5 AS provincial_meet,
+                                      main.Q1107__6 AS agricullture_shows,
+                                      main.Q1107__7 AS roadshows,
+                                      main.Q1107__8 AS field_days,
+                                      main.Q1107__9 AS farmer_meeting,
+                                      main.Q1107__10 AS social_media,
+                                      main.Q1107__11 AS other,
+                                      main.Q1107__99 AS none
+                                      
+                                      FROM main
+                                                 
+                                      INNER JOIN province ON main.province = province.provid
+                                      INNER JOIN island ON main.island = island.islandid
+                                      INNER JOIN ac ON main.area_council = ac.acid
+                                      INNER JOIN village ON main.village = village.villageid
+                                      LEFT JOIN assistanceComposition ON main.id = assistanceComposition.id
+                                      
+                                      WHERE can_enumerate = 1
+                                      
+                         
+                         ")
+
+#agriculture_service[,13:44] <- lapply(agriculture_service[,13:4], factor)
+
+
+agriculture_service$government = as.factor(agriculture_service$government)
+agriculture_service$ngo = as.factor(agriculture_service$ngo)
+agriculture_service$private_org = as.factor(agriculture_service$private_org)
+agriculture_service$donor_fund = as.factor(agriculture_service$donor_fund)
+agriculture_service$seedlings = as.factor(agriculture_service$seedlings)
+agriculture_service$seeds = as.factor(agriculture_service$seeds)
+agriculture_service$nursery = as.factor(agriculture_service$nursery)
+agriculture_service$agro_inputs = as.factor(agriculture_service$agro_inputs)
+agriculture_service$farm_road = as.factor(agriculture_service$farm_road)
+agriculture_service$feed = as.factor(agriculture_service$feed)
+agriculture_service$fencing_materials = as.factor(agriculture_service$fencing_materials)
+
+
+agriculture_service$farm_implements = as.factor(agriculture_service$farm_implements)
+agriculture_service$extension_advice = as.factor(agriculture_service$extension_advice)
+agriculture_service$poultry_sheds = as.factor(agriculture_service$poultry_sheds)
+agriculture_service$layerbirds = as.factor(agriculture_service$layerbirds)
+agriculture_service$sheep_stck = as.factor(agriculture_service$sheep_stck)
+agriculture_service$water_tnk = as.factor(agriculture_service$water_tnk)
+
+
+agriculture_service$incentive_grnt = as.factor(agriculture_service$incentive_grnt)
+agriculture_service$fishing_boat = as.factor(agriculture_service$fishing_boat)
+agriculture_service$other = as.factor(agriculture_service$other)
+agriculture_service$extension_visit = as.factor(agriculture_service$extension_visit)
+agriculture_service$training = as.factor(agriculture_service$training)
+agriculture_service$radio_prgm = as.factor(agriculture_service$radio_prgm)
+
+
+agriculture_service$tv_prgm = as.factor(agriculture_service$tv_prgm)
+agriculture_service$provincial_meet = as.factor(agriculture_service$provincial_meet)
+agriculture_service$agricullture_shows = as.factor(agriculture_service$agricullture_shows)
+agriculture_service$roadshows = as.factor(agriculture_service$roadshows)
+agriculture_service$field_days = as.factor(agriculture_service$field_days)
+agriculture_service$farmer_meeting = as.factor(agriculture_service$farmer_meeting)
+
+agriculture_service$social_media = as.factor(agriculture_service$social_media)
+agriculture_service$other = as.factor(agriculture_service$other)
+agriculture_service$none = as.factor(agriculture_service$none)
+
+
+
+#----------------------------- End of Section 10 Agriculture Services----------------------------#
+
+
+
+
 #### geographical Location ####
 
 gegraphy <- main[, c("id",
